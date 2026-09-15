@@ -1,0 +1,52 @@
+{
+    "personal_information": {
+        "name": "Lucy Harding",
+        "email": "hello@reallygreatsite.com",
+        "phone": "123-456-7890",
+        "location": null,
+        "linkedin": null,
+        "github": null,
+        "portfolio": null,
+        "photo": "images/Black and White Modern Photo Resume/image_1.jpeg"
+    },
+    "summary": null,
+    "education": [
+        {
+            "institution": "Westbrook College",
+            "location": null,
+            "degree": null,
+            "field_of_study": null,
+            "start_date": null,
+            "end_date": null,
+            "graduation_year": null,
+            "cgpa": null
+        }
+    ],
+    "experience": [],
+    "skills": {
+        "programming_languages": [],
+        "frameworks": [],
+        "databases": [],
+        "tools": [],
+        "cloud": [],
+        "soft_skills": [
+            "Communication",
+            "Teamwork"
+        ]
+    },
+    "projects": [],
+    "certifications": [],
+    "achievements": [],
+    "languages": [],
+    "leadership": [],
+    "publications": [],
+    "military_experience": [],
+    "affiliations": [],
+    "training": [
+        "Customer Communication Course",
+        "Workplace Safety Training",
+        "Conflict Resolution Awareness",
+        "References available upon request."
+    ],
+    "coursework": []
+}

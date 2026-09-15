@@ -1,0 +1,43 @@
+{
+    "personal_information": {
+        "name": "Jennifer Hall",
+        "email": "jhall@rremail.com",
+        "phone": "555) 133-1333",
+        "location": null,
+        "linkedin": null,
+        "github": null,
+        "portfolio": null
+    },
+    "summary": "Information systems professional with extensive experience in maintaining successful cloud infrastructures,\ndeploying and debugging cloud stacks, and improving product quality to realize company stipulated goals.\nProven track record of providing most optimal cloud-based solutions to customers, building automated\ndeployments, and troubleshooting existing information systems. Demonstrated proficiency in liaising with\nsoftware developers and recommending solutions to maximize system performance. Visionary IT strategist of\nhigh-performance teams to realize and achieve business targets and drive IT department success with the\nproficiencies of excelling into changing and fast-paced environment. Competent to leverage business and\ntechnical acumen to effectively supervise risks and assets to provide program stewardship through the\nsuccessful design of long-term IT roadmaps. Proven expertise in:\nStrategic Planning & Implementation\nCustomer Services Management\nIssue Troubleshooting / Resolution\nTeam Building & Leadership\nCloud Operations Management\nIT Infrastructure Development\nInformation Systems\nSystems & Desktop Engineering",
+    "education": [
+        {
+            "institution": null,
+            "location": null,
+            "degree": "Bachelor",
+            "field_of_study": "of Arts Degree English Literature (2007)",
+            "start_date": null,
+            "end_date": null,
+            "graduation_year": null,
+            "cgpa": null
+        }
+    ],
+    "experience": [],
+    "skills": {
+        "programming_languages": [],
+        "frameworks": [],
+        "databases": [],
+        "tools": [],
+        "cloud": [],
+        "soft_skills": []
+    },
+    "projects": [],
+    "certifications": [],
+    "achievements": [],
+    "languages": [],
+    "leadership": [],
+    "publications": [],
+    "military_experience": [],
+    "affiliations": [],
+    "training": [],
+    "coursework": []
+}

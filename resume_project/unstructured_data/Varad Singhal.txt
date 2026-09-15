@@ -1,0 +1,38 @@
+Employee Profile: Varad Singhal
+
+The following information was extracted from the employee resume.
+
+SUMMARY
+- Software Engineer with 2+ years of experience across mobile application development, AWS-based backend systems,
+and IoT solutions, seeking a part-time role building scalable applications, connected-device integrations, and efficient
+cloud backends. Passionate about creating reliable, high-performance systems that bridge software and hardware to
+deliver impactful technology solutions.
+
+PROJECTS
+- name: Sephela – Enterprise platform for GenAI-based automated analysis and risk scoring of fraudulent Android APKs
+- name: — built for banking cybersecurity teams
+- name: BusMitra – Real-time bus tracking system combining a | technologies: Flutter
+- name: share live bus locations and predict arrival times, improving public transport reliability and fleet monitoring for
+- name: authorities. Try it out
+- name: Gigkavach – Built an AI-powered mobile platform delivering parametric income insurance and earnings intelligence
+- name: for food-delivery gig workers, auto-triggering disruption payouts (rain, AQI, flooding) via real-time API monitoring
+- name: with zero manual claims filing. Try it out
+- name: Achievements and Campus Involvement
+- name: First Place, Innofusion ’26 – hackathon organized by the DSBS Department
+- name: First Place, PokeVerse Ideathon – organized by SRM ACM SIGKDD
+- name: IBM Android and iOS Application Developer Certification
+- name: Salesforce Certified Agentforce Specialist
+- name: Oracle Agentic AI Certified Foundations Associate | technologies: Oracle
+- name: Technical Team Member – Google Developer Groups, Qwiklab Developer Club, Microsoft Student Ambassador,
+- name: Coding Ninjas 10X
+
+LANGUAGES
+- Java, Dart, Python, C/C++, SQL
+- Cloud & DevOps
+- AWS Lambda, RDS, S3, SSM, Amazon Bedrock (Titan V2), Git
+- Frameworks/Tools
+- Flutter, React, Node.js, Firebase, REST APIs
+- IoT Technologies
+- ESP32, Arduino, Sensors, MQTT, Embedded Systems
+- Soft Skills
+- Problem Solving, Team Collaboration, Communication, Time Management

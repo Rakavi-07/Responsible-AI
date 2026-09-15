@@ -1,0 +1,47 @@
+Employee Profile: JAISAL RATHI
+
+The following information was extracted from the employee resume.
+
+SUMMARY
+- Analytical undergraduate pursuing B.Tech in Computer Science with a strong foundation in software development,
+data structures, and problem solving. Passionate about building scalable software systems and applying data-driven
+thinking to solve real-world challenges. Experienced in leading teams during high-pressure situations and committed
+to continuous learning, collaboration, and engineering excellence.
+
+SKILLS
+- Python
+- C++
+- C
+- Git
+- Communication
+- Leadership
+- Team Leadership
+- Problem Solving
+
+PROJECTS
+- name: Docsahab — Emergency Medical Coordination Platform | description: Designed a real-time emergency coordination platform for hospitals, ambulances, and healthcare resources.
+- name: Optimized the emergency response (“golden hour”) workflow across patients, ambulances, and hospitals | description: Designed a scalable backend architecture with a multi-state emergency lifecycle
+- name: Focused on data reliability and operational efficiency
+- name: Aurora — AI-Driven Game | description: Designed and developed an AI-driven game featuring sound-based enemy detection and predictive movement algo-
+- name: rithms. | description: Implemented intelligent NPC behaviour, Built decision-making logic under uncertainty
+- name: Optimized gameplay mechanics
+
+CERTIFICATIONS
+- Object-Oriented Programming — IIT Roorkee
+- Data Science Bootcamp (6 Weeks) — GeeksforGeeks
+- Financial Analysis & Market Fundamentals (Level 2)
+- Stock Analysis
+
+ACHIEVEMENTS
+- Secured a Top 10 position in a hackathon while competing individually without a team
+- Former Member — Mensa
+- Recognized for strong debating and analytical communication skills at state-level platforms
+
+LEADERSHIP
+- Team Member — Hack The Box Chennai Club
+- Aug 2024 – Feb 2026
+- Led team coordination during high-pressure scenarios, achieving maximum participation through effective commu-
+- nication and planning
+
+LANGUAGES
+- Hindi (Fluent) — English (Fluent) — Spanish (Elementary)

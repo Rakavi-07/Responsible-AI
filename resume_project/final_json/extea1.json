@@ -1,0 +1,33 @@
+{
+    "personal_information": {
+        "name": "Resume for Sample Purposes Only",
+        "email": null,
+        "phone": null,
+        "location": null,
+        "linkedin": null,
+        "github": null,
+        "portfolio": null,
+        "photo": "images/extea1/image_1.png"
+    },
+    "summary": null,
+    "education": [],
+    "experience": [],
+    "skills": {
+        "programming_languages": [],
+        "frameworks": [],
+        "databases": [],
+        "tools": [],
+        "cloud": [],
+        "soft_skills": []
+    },
+    "projects": [],
+    "certifications": [],
+    "achievements": [],
+    "languages": [],
+    "leadership": [],
+    "publications": [],
+    "military_experience": [],
+    "affiliations": [],
+    "training": [],
+    "coursework": []
+}

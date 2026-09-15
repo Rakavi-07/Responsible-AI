@@ -1,0 +1,74 @@
+{
+    "personal_information": {
+        "name": "JAISAL RATHI",
+        "email": "jaisairathi@gmail.com",
+        "phone": "+91 82229 69798",
+        "location": null,
+        "linkedin": "linkedin.com/in/jaisal-rathi-a69485413",
+        "github": "github.com/Jaisalrathi1829",
+        "portfolio": null
+    },
+    "summary": "Analytical undergraduate pursuing B.Tech in Computer Science with a strong foundation in software development,\ndata structures, and problem solving. Passionate about building scalable software systems and applying data-driven\nthinking to solve real-world challenges. Experienced in leading teams during high-pressure situations and committed\nto continuous learning, collaboration, and engineering excellence.",
+    "education": [
+        "Bachelor of Technology, Computer Science & Engineering",
+        "Expected May 2028",
+        "SRM Institute of Science & Technology, Kattankulathur",
+        "CGPA: 8.03/10",
+        "High School Diploma",
+        "May 2024",
+        "Pathania Public School, Rohtak"
+    ],
+    "experience": [],
+    "skills": {
+        "technical": [
+            "Programming: C, C++, Python",
+            "Core CS: Data Structures & Algorithms, Object-Oriented Programming, Problem Solving",
+            "Software Engineering: Software Development, Git, REST APIs, SDLC",
+            "Leadership: Team Leadership, Stakeholder Communication, Decision Making, Team Coordination"
+        ],
+        "programming_languages": [],
+        "frameworks": [],
+        "databases": [],
+        "tools": [],
+        "cloud": [],
+        "soft_skills": []
+    },
+    "projects": [
+        "Docsahab — Emergency Medical Coordination Platform",
+        "Designed a real-time emergency coordination platform for hospitals, ambulances, and healthcare resources.",
+        "Optimized the emergency response (“golden hour”) workflow across patients, ambulances, and hospitals",
+        "Designed a scalable backend architecture with a multi-state emergency lifecycle",
+        "Focused on data reliability and operational efficiency",
+        "Aurora — AI-Driven Game",
+        "Designed and developed an AI-driven game featuring sound-based enemy detection and predictive movement algo-",
+        "rithms.",
+        "Implemented intelligent NPC behaviour",
+        "Built decision-making logic under uncertainty",
+        "Optimized gameplay mechanics"
+    ],
+    "certifications": [
+        "Object-Oriented Programming — IIT Roorkee",
+        "Data Science Bootcamp (6 Weeks) — GeeksforGeeks",
+        "Financial Analysis & Market Fundamentals (Level 2)",
+        "Stock Analysis"
+    ],
+    "achievements": [
+        "Secured a Top 10 position in a hackathon while competing individually without a team",
+        "Former Member — Mensa",
+        "Recognized for strong debating and analytical communication skills at state-level platforms"
+    ],
+    "languages": [
+        "Hindi (Fluent) — English (Fluent) — Spanish (Elementary)"
+    ],
+    "leadership": [
+        "Team Member — Hack The Box Chennai Club",
+        "Aug 2024 – Feb 2026",
+        "Led team coordination during high-pressure scenarios, achieving maximum participation through effective commu-",
+        "nication and planning"
+    ],
+    "publications": [],
+    "military_experience": [],
+    "affiliations": [],
+    "training": [],
+    "coursework": []
+}

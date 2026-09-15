@@ -1,0 +1,22 @@
+Employee Profile: Jennifer Hall
+
+The following information was extracted from the employee resume.
+
+SUMMARY
+- Information systems professional with extensive experience in maintaining successful cloud infrastructures,
+deploying and debugging cloud stacks, and improving product quality to realize company stipulated goals.
+Proven track record of providing most optimal cloud-based solutions to customers, building automated
+deployments, and troubleshooting existing information systems. Demonstrated proficiency in liaising with
+software developers and recommending solutions to maximize system performance. Visionary IT strategist of
+high-performance teams to realize and achieve business targets and drive IT department success with the
+proficiencies of excelling into changing and fast-paced environment. Competent to leverage business and
+technical acumen to effectively supervise risks and assets to provide program stewardship through the
+successful design of long-term IT roadmaps. Proven expertise in:
+Strategic Planning & Implementation
+Customer Services Management
+Issue Troubleshooting / Resolution
+Team Building & Leadership
+Cloud Operations Management
+IT Infrastructure Development
+Information Systems
+Systems & Desktop Engineering

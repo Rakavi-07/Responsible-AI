@@ -1,0 +1,47 @@
+{
+  "personal_information": {
+    "name": null,
+    "email": null,
+    "phone": null,
+    "location": null,
+    "linkedin": null,
+    "github": null,
+    "portfolio": null
+  },
+
+  "summary": null,
+
+  "education": [],
+
+  "experience": [],
+
+  "skills": {
+    "technical": [],
+    "programming_languages": [],
+    "frameworks": [],
+    "databases": [],
+    "tools": [],
+    "cloud": [],
+    "soft_skills": []
+  },
+
+  "projects": [],
+
+  "certifications": [],
+
+  "achievements": [],
+
+  "languages": [],
+
+  "leadership": [],
+
+  "publications": [],
+
+  "military_experience": [],
+
+  "affiliations": [],
+
+  "training": [],
+
+  "coursework": []
+}

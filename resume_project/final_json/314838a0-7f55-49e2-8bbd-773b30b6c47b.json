@@ -1,0 +1,144 @@
+{
+    "personal_information": {
+        "name": "ARYAN SHARMA",
+        "email": "shrmaaryan.77@gmail.com",
+        "phone": "7644004689",
+        "location": null,
+        "linkedin": "linkedin.com/in/aryan-sharma-a02111402",
+        "github": "github.com/aryansh9090",
+        "portfolio": null,
+        "photo": "images/314838a0-7f55-49e2-8bbd-773b30b6c47b/image_1.png"
+    },
+    "summary": null,
+    "education": [
+        {
+            "institution": "SRM Institute of Science and Technology Chennai, India (2024-2028)",
+            "location": null,
+            "degree": "B.Tech",
+            "field_of_study": "Computer Science and Engineering",
+            "start_date": "2024",
+            "end_date": "2028",
+            "graduation_year": 2028,
+            "cgpa": 9.18
+        }
+    ],
+    "experience": [
+        {
+            "company": "Accemberg Technologies Pvt. Ltd.",
+            "job_title": "Backend Development Intern",
+            "location": null,
+            "start_date": "June 2026",
+            "end_date": "July 2026",
+            "responsibilities": [
+                "Worked across multiple client projects handling backend architecture and deployment, including Firebase (Auth, Firestore) integration",
+                "and hosting/deployment on Vercel.",
+                "Implemented authentication flows and managed secure environment/credential handling across projects.",
+                "Deployed and maintained production builds, coordinating with frontend and API teams to ship features end-to-end."
+            ],
+            "achievements": []
+        },
+        {
+            "company": "Jharkhand Education Project Council (JEPC)",
+            "job_title": "Intern",
+            "location": null,
+            "start_date": "June 2026",
+            "end_date": "July 2026",
+            "responsibilities": [
+                "Built RAG (Retrieval-Augmented Generation) pipelines to power an internal chatbot for querying domain-specific documents.",
+                "Integrated NeMo Guardrails to enforce safe, on-topic, and policy-compliant chatbot responses."
+            ],
+            "achievements": [
+                "Improved response accuracy and reliability through prompt engineering and retrieval tuning."
+            ]
+        }
+    ],
+    "skills": {
+        "programming_languages": [
+            "Python",
+            "Java",
+            "JavaScript",
+            "C++",
+            "C",
+            "SQL"
+        ],
+        "frameworks": [
+            "Next.js",
+            "React",
+            "Django",
+            "Flask",
+            "FastAPI",
+            "Tailwind CSS"
+        ],
+        "databases": [
+            "SQLite"
+        ],
+        "tools": [
+            "Git",
+            "GitHub",
+            "VS Code"
+        ],
+        "cloud": [
+            "Firebase",
+            "Vercel"
+        ],
+        "soft_skills": []
+    },
+    "projects": [
+        {
+            "name": "AI Interview Preparation Platform",
+            "description": [
+                "Designed and developed backend APIs using FastAPI to process user data and generate personalized interview questions.",
+                "Built automated data ingestion and processing pipelines for resume parsing and dynamic question generation.",
+                "Implemented real-time evaluation and scoring system using structured data storage and retrieval.",
+                "Integrated NLP models to analyze user responses and improve feedback accuracy."
+            ],
+            "technologies": [
+                "Python",
+                "React",
+                "FastAPI"
+            ],
+            "achievements": []
+        },
+        {
+            "name": "TerraMind – Agri Intelligence Platform",
+            "description": [
+                "Built an ELT pipeline to ingest and transform satellite NDVI datasets for crop health monitoring.",
+                "Processed and analyzed agricultural datasets to generate irrigation and soil recommendations.",
+                "Designed dashboards to visualize processed data and provide actionable insights."
+            ],
+            "technologies": [
+                "Python",
+                "Django"
+            ],
+            "achievements": []
+        },
+        {
+            "name": "Crypto Trading Bot (Simulated)",
+            "description": [
+                "Built a real-time data ingestion pipeline fetching live cryptocurrency price data via external REST APIs.",
+                "Engineered a continuous ETL pipeline for data transformation and decision-making (BUY/HOLD logic).",
+                "Designed modular, scalable code architecture for future integration with real trading systems."
+            ],
+            "technologies": [
+                "Python"
+            ],
+            "achievements": []
+        }
+    ],
+    "certifications": [
+        "NPTEL – Java Programming & OOP | Participant – Codeathon Techformers 1.0",
+        "SRM Hackathon 10.0 – Ranked 4th out of 200+ teams | Solved 100+ Questions on LeetCode",
+        "HackerRank – 2 Star Badge"
+    ],
+    "achievements": [],
+    "languages": [],
+    "leadership": [],
+    "publications": [],
+    "military_experience": [],
+    "affiliations": [],
+    "training": [],
+    "coursework": [
+        "Data Structures and Algorithms, Database Management Systems, Object-Oriented Programming, Big Data Technologies, Computer",
+        "Networks, Operating Systems"
+    ]
+}

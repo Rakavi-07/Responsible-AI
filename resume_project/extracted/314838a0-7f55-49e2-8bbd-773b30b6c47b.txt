@@ -1,0 +1,43 @@
+[IMAGE: images/314838a0-7f55-49e2-8bbd-773b30b6c47b/image_1.png]
+ARYAN SHARMA
+7644004689 | shrmaaryan.77@gmail.com | linkedin.com/in/aryan-sharma-a02111402 | github.com/aryansh9090
+EDUCATION
+SRM Institute of Science and Technology                                                                                                                          Chennai, India (2024-2028) 
+B.Tech in Computer Science and Engineering  |  Graduation Year: 2028                                                                                                   CGPA: 9.18
+DAV Public School, Bariatu                                                                                                                                                         Ranchi, Jharkhand, India
+EXPERIENCE
+Backend Development Intern — Accemberg Technologies Pvt. Ltd.                                                                                    June 2026 – July 2026
+•​ Worked across multiple client projects handling backend architecture and deployment, including Firebase (Auth, Firestore) integration 
+and hosting/deployment on Vercel. 
+•​ Implemented authentication flows and managed secure environment/credential handling across projects. 
+•​ Deployed and maintained production builds, coordinating with frontend and API teams to ship features end-to-end.
+Intern — Jharkhand Education Project Council (JEPC)                                                                                                             June 2026 – July 2026
+•​ Built RAG (Retrieval-Augmented Generation) pipelines to power an internal chatbot for querying domain-specific documents. 
+•​ Integrated NeMo Guardrails to enforce safe, on-topic, and policy-compliant chatbot responses. 
+•​ Improved response accuracy and reliability through prompt engineering and retrieval tuning.
+PROJECTS
+AI Interview Preparation Platform                                                                                                                                         React, FastAPI, Python, NLP
+•​ Designed and developed backend APIs using FastAPI to process user data and generate personalized interview questions. 
+•​ Built automated data ingestion and processing pipelines for resume parsing and dynamic question generation. 
+•​ Implemented real-time evaluation and scoring system using structured data storage and retrieval. 
+•​ Integrated NLP models to analyze user responses and improve feedback accuracy.
+TerraMind – Agri Intelligence Platform                                                                                                                           Python, Django, Data Analysis
+•​ Built an ELT pipeline to ingest and transform satellite NDVI datasets for crop health monitoring. 
+•​ Processed and analyzed agricultural datasets to generate irrigation and soil recommendations. 
+•​ Designed dashboards to visualize processed data and provide actionable insights.
+Crypto Trading Bot (Simulated)                                                                                                                                                            Python, REST APIs
+•​ Built a real-time data ingestion pipeline fetching live cryptocurrency price data via external REST APIs. 
+•​ Engineered a continuous ETL pipeline for data transformation and decision-making (BUY/HOLD logic). 
+•​ Designed modular, scalable code architecture for future integration with real trading systems.
+TECHNICAL SKILLS
+Languages: JavaScript, Python, SQL, Java, C++ 
+Frameworks: Next.js, React, FastAPI, Django, Flask, Tailwind CSS 
+Tools & Platforms: Git, GitHub, Firebase, Vercel, SQLite, VS Code 
+Data & AI: ETL/ELT Pipelines, REST APIs, RAG, NeMo Guardrails, DBMS
+RELEVANT COURSEWORK
+Data Structures and Algorithms, Database Management Systems, Object-Oriented Programming, Big Data Technologies, Computer 
+Networks, Operating Systems
+CERTIFICATIONS & ACHIEVEMENTS
+•​ NPTEL – Java Programming & OOP  |  Participant – Codeathon Techformers 1.0 
+•​ SRM Hackathon 10.0 – Ranked 4th out of 200+ teams  |  Solved 100+ Questions on LeetCode 
+•​ HackerRank – 2 Star Badge

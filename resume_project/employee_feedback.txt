@@ -1,0 +1,527 @@
+============================================================
+Employee: Jennifer Hall
+============================================================
+
+Skills:
+Cloud Operations Management
+IT Infrastructure Development
+Information Systems
+Systems and Desktop Engineering
+Strategic Planning and Implementation
+Customer Service Management
+Issue Troubleshooting and Resolution
+Team Building and Leadership
+Salesforce
+Data Security
+Information Systems Operations
+
+Certifications:
+Salesforce training during company-wide CRM migration
+
+Projects:
+Company-wide migration from CRM to Salesforce.
+International air export operations involving customer orders, documentation,
+shipment tracking, and information systems.
+
+Achievements:
+Managed 150+ international air export orders weekly.
+Improved warehouse operational productivity through accurate labeling,
+data entry, shipment coordination, and deadline management.
+Identified potential information security disclosures and breaches.
+Supported efficient specimen material handling and international shipments.
+
+Leadership:
+Demonstrated team-building and leadership abilities while coordinating
+operations and providing enhancement instructions to team members.
+
+Additional Information:
+Strong experience working with customers, software developers, medical staff,
+laboratory teams, and commercial operations.
+
+
+============================================================
+Employee: ARYAN SHARMA
+============================================================
+
+Skills:
+JavaScript
+Python
+SQL
+Java
+C++
+Next.js
+React
+FastAPI
+Django
+Flask
+Tailwind CSS
+Git
+GitHub
+Firebase
+Vercel
+SQLite
+REST APIs
+ETL/ELT Pipelines
+RAG
+NeMo Guardrails
+DBMS
+
+Certifications:
+NPTEL Java Programming and OOP
+HackerRank 2 Star Badge
+
+Projects:
+AI Interview Preparation Platform
+TerraMind - Agri Intelligence Platform
+Crypto Trading Bot
+
+Achievements:
+Ranked 4th in SRM Hackathon 10.0 among 200+ teams.
+Solved 100+ questions on LeetCode.
+
+Leadership:
+Coordinated with frontend and API teams while delivering backend features.
+Interested in building scalable backend and AI systems.
+
+Additional Information:
+Built RAG pipelines for an internal chatbot at Jharkhand Education
+Project Council.
+Integrated NeMo Guardrails to improve chatbot safety and reliability.
+Worked on authentication, Firebase integration, deployment, and backend
+architecture.
+
+
+============================================================
+Employee: JAISAL RATHI
+============================================================
+
+Skills:
+C
+C++
+Python
+Data Structures and Algorithms
+Object-Oriented Programming
+Problem Solving
+Software Development
+Git
+REST APIs
+SDLC
+Team Leadership
+Stakeholder Communication
+Decision Making
+Team Coordination
+
+Certifications:
+Object-Oriented Programming - IIT Roorkee
+Data Science Bootcamp - GeeksforGeeks
+Financial Analysis and Market Fundamentals Level 2
+Stock Analysis
+
+Projects:
+Docsahab - Emergency Medical Coordination Platform
+Aurora - AI-Driven Game
+
+Achievements:
+Secured a Top 10 position in a hackathon while competing individually.
+Former member of Mensa.
+Recognized for debating and analytical communication skills at
+state-level platforms.
+
+Leadership:
+Led team coordination during high-pressure scenarios.
+Demonstrated communication, planning, decision making, and team
+coordination abilities.
+
+Additional Information:
+Interested in scalable software systems, data-driven problem solving,
+and engineering excellence.
+Docsahab focused on emergency coordination between hospitals,
+ambulances, and healthcare resources.
+Aurora involved intelligent NPC behaviour and decision-making
+under uncertainty.
+
+
+============================================================
+Employee: Lucy Harding
+============================================================
+
+Skills:
+Face-to-face Customer Service
+Telephone Handling
+Complaint Resolution
+Till Support
+Teamwork
+Communication
+Organisation
+Calm Under Pressure
+Customer Enquiry Handling
+Stock Checking
+
+Certifications:
+Customer Communication Course
+Workplace Safety Training
+Conflict Resolution Awareness
+
+Projects:
+Customer service operations at Everyday Market.
+Front desk and booking support at Common Room Café.
+Retail floor and customer support activities at Corner Retail.
+
+Achievements:
+Supported customers with everyday enquiries.
+Helped maintain smooth customer service operations during busy periods.
+Assisted with stock checks and maintaining organised service areas.
+
+Leadership:
+Works effectively as part of a team.
+Maintains a calm and helpful approach during busy environments.
+
+Additional Information:
+Experienced in welcoming visitors, answering questions, supporting bookings,
+directing customers to products, and maintaining a tidy and welcoming
+environment.
+
+
+============================================================
+Employee: Varad Singhal
+============================================================
+
+Skills:
+Java
+Dart
+Python
+C
+C++
+SQL
+AWS Lambda
+Amazon RDS
+Amazon S3
+AWS SSM
+Amazon Bedrock
+Git
+Flutter
+React
+Node.js
+Firebase
+REST APIs
+ESP32
+Arduino
+MQTT
+Embedded Systems
+Problem Solving
+Team Collaboration
+Communication
+Time Management
+
+Certifications:
+IBM Android and iOS Application Developer Certification
+Salesforce Certified Agentforce Specialist
+Oracle Agentic AI Certified Foundations Associate
+
+Projects:
+Sephela - Enterprise platform for GenAI-based automated analysis and
+risk scoring of fraudulent Android APKs.
+BusMitra - Real-time bus tracking and arrival prediction platform.
+Gigkavach - AI-powered platform for parametric income insurance and
+earnings intelligence for food-delivery gig workers.
+
+Achievements:
+First Place - Innofusion '26 hackathon.
+First Place - PokeVerse Ideathon.
+Top Achiever in First Year.
+
+Leadership:
+Technical Team Member in Google Developer Groups,
+Qwiklab Developer Club, Microsoft Student Ambassador,
+and Coding Ninjas 10X.
+
+Additional Information:
+Experienced in mobile application development, AWS backend systems,
+IoT solutions, connected-device integrations, and cloud infrastructure.
+Managed deployments and system monitoring while integrating IoT devices.
+
+
+============================================================
+Employee: JACOB J. JACOBY
+============================================================
+
+Skills:
+Water Management
+Gas Piping and Fitting
+Irrigation Installation
+Commercial Construction
+Underground Water Tie-ins
+Residential Construction
+Renovation and Design
+Warranty and Repair
+Planning and Development
+Budgeting and Scheduling
+Employee Supervision
+Maintenance and Support
+Project Management
+Landscape Construction
+Safety Systems
+Quality Control
+Heavy Equipment Operation
+Cost Control
+Copper and PVC Piping
+PEX
+Pipe Fitting
+
+Certifications:
+Washington Registered Plumbing Apprentice
+Idaho Registered Plumbing Apprentice
+CPR Certified
+Primary Leadership Development Course
+Combat Communications Course
+Combat Lifesaver Course
+Air Assault School
+Expert Infantryman Badge
+
+Projects:
+Commercial and residential plumbing construction projects.
+Landscape construction and renovation projects.
+Irrigation installation and maintenance projects.
+
+Achievements:
+Received Army Commendation Medal twice.
+Received Army Achievement Medal twice.
+Promoted from Private/E-1 to Sergeant/E-5.
+Elevated to Team Leader, Corporal Squad Leader, and Training Room NCO.
+Received NATO Medal and Kosovo Campaign Ribbon.
+Recognized repeatedly for outstanding performance and compliance.
+
+Leadership:
+Supervised crews of up to 10 direct reports.
+Served as Team Leader, Squad Leader, and Training Room NCO.
+Managed job sites, schedules, materials, and subcontractor coordination.
+
+Additional Information:
+Strong experience in troubleshooting, quality control, project management,
+safety, regulatory compliance, and completing projects on time and under budget.
+
+
+============================================================
+Employee: VINCE D. CONLAN
+============================================================
+
+Skills:
+Quality Assurance
+Maintenance Control
+Logistics Management
+Performance Evaluations
+Technical Training
+Aircraft Maintenance
+Aircraft Operations
+Time and Resource Management
+Team Building
+Personnel Leadership
+Training and Mentoring
+Lean Six Sigma
+Basic Theory of Constraints
+Aircraft Inspection
+Maintenance Planning
+
+Certifications:
+FAA Airframe and Powerplant Mechanic License
+Private Pilot
+Aviation Structural Mechanic Training
+Naval Aviation Maintenance Control Training
+Primary Leadership Development
+Chief Petty Officer Leadership
+Lean Six Sigma Principles Training
+Basic Theory of Constraints Training
+F/A-18 Aircraft Qualifications
+
+Projects:
+Aircraft maintenance and repair operations.
+Aircraft readiness and maintenance planning programs.
+Aircraft component replenishment improvement initiative.
+
+Achievements:
+Reduced average aircraft component replenishment time from 21 days
+to 16 days using Lean/Six Sigma principles.
+Generated estimated annual savings of $450,000 through training and
+repair capability improvements.
+Increased Full Mission Capable Status aircraft by 74% through
+maintenance planning.
+Completed 270 combat missions and 18,000 flight hours.
+
+Leadership:
+Managed and coordinated teams of Navy and Marine Corps personnel.
+Trained, mentored, and evaluated personnel.
+Led cross-functional aircraft maintenance teams.
+
+Additional Information:
+More than 20 years of aviation operations experience.
+Experienced in aircraft maintenance, logistics, repair, quality assurance,
+training, and resource management.
+
+
+============================================================
+Employee: RICHARD A. LEVINSON
+============================================================
+
+Skills:
+Critical Mission Management
+Program Management
+Operational Efficiency
+Training Program Design
+Staff Development
+Team Empowerment
+Community Relationship Building
+Personnel Mentoring
+Coaching
+Budget Planning
+Organizational Management
+Strategic Planning
+Inter-organizational Teamwork
+Communication
+Counseling
+
+Certifications:
+Lean Six Sigma Green Belt
+
+Projects:
+Stress Control Program proposal.
+Military and family relief support programs.
+Training and operational programs.
+Fitness program used for ethics training.
+
+Achievements:
+Expanded relief services to members by 300%.
+Raised more than $400,000 in relief support.
+Supported Hurricane Katrina and Rita relief operations.
+Provided assistance to more than 7,000 military and family evacuees.
+Provided training for more than 750 team members.
+
+Leadership:
+Supervised teams of employees and volunteers.
+Provided mentoring, counseling, and training.
+Managed operational budgets and development programs.
+Served as a liaison with community organisations.
+
+Additional Information:
+Strong background in management, supervision, mentoring, program development,
+community relationships, and cross-functional team leadership.
+
+
+============================================================
+Employee: DAVID H. ANDERS
+============================================================
+
+Skills:
+Team Management
+Budget Management
+Quality Assurance
+Safety Assurance
+Strategic Operational Planning
+Team Building
+Mentoring
+Leadership
+Production Analysis
+Six Sigma
+Lean Manufacturing
+Training
+Process Analysis
+Troubleshooting
+Environmental Health and Safety
+Production and Maintenance Operations
+
+Certifications:
+Six Sigma Green Belt
+FCC License with Radar Endorsement
+Government Secret Security Clearance
+
+Projects:
+Maintenance and replacement-parts operations.
+Lean and Six Sigma process improvement initiatives.
+Aircraft maintenance planning programs.
+Training and cross-learning programs.
+Quality assurance programs.
+
+Achievements:
+Generated more than $1.4 million in savings through resource management.
+Facilitated $2.1 million in savings through Lean and Six Sigma principles.
+Improved repair and reissue time by 25%.
+Improved team readiness by 25% through cross-learning.
+Developed training programs that improved advancement opportunities.
+Received Humanitarian Medal for participation in a rescue mission.
+
+Leadership:
+Supervised teams ranging from dozens to hundreds of personnel.
+Trained, coached, and evaluated team members.
+Managed multimillion-dollar budgets.
+Led cross-functional teams in complex operational environments.
+
+Additional Information:
+Experienced in operations, logistics, production, maintenance, quality,
+safety, training, mentoring, and large-scale program management.
+
+
+============================================================
+Employee: GEORGE REDMOND
+============================================================
+
+Skills:
+Account Management
+Business Development
+Team Leadership
+Training
+Reseller Account Management
+Customer Base Expansion
+Territory Sales Management
+Marketing
+Market Share Expansion
+Product Training
+Sales and Distribution
+Public Relations
+Presentations
+Proposal Development
+Brand Development
+Prospecting
+Trade Show Management
+Direct Sales
+Business-to-Business Sales
+Consultative Selling
+Negotiation
+Customer Conflict Resolution
+Microsoft Word
+Microsoft Excel
+Microsoft Outlook
+Microsoft PowerPoint
+
+Certifications:
+Professional Selling Skills
+Prospecting Tools and Techniques
+Communicating with Diplomacy and Professionalism
+Upselling
+New Customer Acquisition Training
+
+Projects:
+Framing specialist program development.
+Sales territory management.
+Distributor product training and placement.
+Monthly sales reporting automation.
+
+Achievements:
+Exceeded sales quotas 7 out of 9 years.
+Opened Maine-based OEM accounts totaling more than $600,000 in annual sales.
+Won multiple sales growth contests.
+Negotiated an agreement producing more than $200,000 additional
+annual gross sales.
+Converted more than 20 retail locations through improved product placement.
+Reduced Monthly Features List production time from two days to two hours.
+
+Leadership:
+Trained sales agents and customer service personnel.
+Supervised and coached new field sales team members.
+Coordinated with sales, credit, warehouse, and customer service teams.
+
+Additional Information:
+Strong communicator and negotiator with experience in B2B sales,
+customer service, account management, marketing, product training,
+and resolving customer conflicts.
+
+
+============================================================

@@ -1,0 +1,154 @@
+{
+    "personal_information": {
+        "name": "Varad Singhal",
+        "email": "varadsinghal1526@gmail.com",
+        "phone": "+91-7805841826",
+        "location": null,
+        "linkedin": "linkedin.com/in/varad-singhal-ba1361326",
+        "github": null,
+        "portfolio": "varadsinghal-portfolio4.vercel.app"
+    },
+    "summary": "Software Engineer with 2+ years of experience across mobile application development, AWS-based backend systems,\nand IoT solutions, seeking a part-time role building scalable applications, connected-device integrations, and efficient\ncloud backends. Passionate about creating reliable, high-performance systems that bridge software and hardware to\ndeliver impactful technology solutions.",
+    "education": [
+        {
+            "institution": "SRM Institute of Science and Technology",
+            "location": null,
+            "degree": "B.Tech",
+            "field_of_study": "Honors in Financial Technology",
+            "start_date": null,
+            "end_date": null,
+            "graduation_year": 2027,
+            "cgpa": 10.0
+        }
+    ],
+    "experience": [],
+    "skills": {
+        "programming_languages": [],
+        "frameworks": [],
+        "databases": [],
+        "tools": [],
+        "cloud": [],
+        "soft_skills": []
+    },
+    "projects": [
+        {
+            "name": "Sephela – Enterprise platform for GenAI-based automated analysis and risk scoring of fraudulent Android APKs",
+            "description": [],
+            "technologies": [],
+            "achievements": []
+        },
+        {
+            "name": "— built for banking cybersecurity teams",
+            "description": [],
+            "technologies": [],
+            "achievements": []
+        },
+        {
+            "name": "BusMitra – Real-time bus tracking system combining a",
+            "description": [],
+            "technologies": [
+                "Flutter"
+            ],
+            "achievements": []
+        },
+        {
+            "name": "share live bus locations and predict arrival times, improving public transport reliability and fleet monitoring for",
+            "description": [],
+            "technologies": [],
+            "achievements": []
+        },
+        {
+            "name": "authorities. Try it out",
+            "description": [],
+            "technologies": [],
+            "achievements": []
+        },
+        {
+            "name": "Gigkavach – Built an AI-powered mobile platform delivering parametric income insurance and earnings intelligence",
+            "description": [],
+            "technologies": [],
+            "achievements": []
+        },
+        {
+            "name": "for food-delivery gig workers, auto-triggering disruption payouts (rain, AQI, flooding) via real-time API monitoring",
+            "description": [],
+            "technologies": [],
+            "achievements": []
+        },
+        {
+            "name": "with zero manual claims filing. Try it out",
+            "description": [],
+            "technologies": [],
+            "achievements": []
+        },
+        {
+            "name": "Achievements and Campus Involvement",
+            "description": [],
+            "technologies": [],
+            "achievements": []
+        },
+        {
+            "name": "First Place, Innofusion ’26 – hackathon organized by the DSBS Department",
+            "description": [],
+            "technologies": [],
+            "achievements": []
+        },
+        {
+            "name": "First Place, PokeVerse Ideathon – organized by SRM ACM SIGKDD",
+            "description": [],
+            "technologies": [],
+            "achievements": []
+        },
+        {
+            "name": "IBM Android and iOS Application Developer Certification",
+            "description": [],
+            "technologies": [],
+            "achievements": []
+        },
+        {
+            "name": "Salesforce Certified Agentforce Specialist",
+            "description": [],
+            "technologies": [],
+            "achievements": []
+        },
+        {
+            "name": "Oracle Agentic AI Certified Foundations Associate",
+            "description": [],
+            "technologies": [
+                "Oracle"
+            ],
+            "achievements": []
+        },
+        {
+            "name": "Technical Team Member – Google Developer Groups, Qwiklab Developer Club, Microsoft Student Ambassador,",
+            "description": [],
+            "technologies": [],
+            "achievements": []
+        },
+        {
+            "name": "Coding Ninjas 10X",
+            "description": [],
+            "technologies": [],
+            "achievements": []
+        }
+    ],
+    "certifications": [],
+    "achievements": [],
+    "languages": [
+        "Java, Dart, Python, C/C++, SQL",
+        "Cloud & DevOps",
+        "AWS Lambda, RDS, S3, SSM, Amazon Bedrock (Titan V2), Git",
+        "Frameworks/Tools",
+        "Flutter, React, Node.js, Firebase, REST APIs",
+        "IoT Technologies",
+        "ESP32, Arduino, Sensors, MQTT, Embedded Systems",
+        "Soft Skills",
+        "Problem Solving, Team Collaboration, Communication, Time Management"
+    ],
+    "leadership": [],
+    "publications": [],
+    "military_experience": [],
+    "affiliations": [],
+    "training": [],
+    "coursework": []
+}

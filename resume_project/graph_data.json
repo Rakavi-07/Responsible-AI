@@ -1,0 +1,2560 @@
+{
+    "graph_schema": {
+        "description": "Knowledge graph generated from the canonical resume Blueprint.",
+        "node_labels": [
+            "Achievement",
+            "Certification",
+            "Company",
+            "Course",
+            "Degree",
+            "Education",
+            "Experience",
+            "Institution",
+            "JobRole",
+            "Language",
+            "LeadershipExperience",
+            "MilitaryExperience",
+            "Organization",
+            "Person",
+            "Project",
+            "Skill",
+            "Technology",
+            "Training"
+        ],
+        "relationship_types": [
+            "AT_COMPANY",
+            "AT_INSTITUTION",
+            "COMPLETED_COURSE",
+            "COMPLETED_TRAINING",
+            "HAS_ACHIEVEMENT",
+            "HAS_CERTIFICATION",
+            "HAS_DEGREE",
+            "HAS_EDUCATION",
+            "HAS_EXPERIENCE",
+            "HAS_LEADERSHIP_EXPERIENCE",
+            "HAS_MILITARY_EXPERIENCE",
+            "HAS_ROLE",
+            "HAS_SKILL",
+            "MEMBER_OF",
+            "SPEAKS",
+            "STUDIED_AT",
+            "USES_TECHNOLOGY",
+            "WORKED_AT",
+            "WORKED_ON"
+        ]
+    },
+    "nodes": [
+        {
+            "id": "person_jennifer_hall",
+            "label": "Person",
+            "properties": {
+                "name": "Jennifer Hall",
+                "email": "jhall@rremail.com",
+                "phone": "555) 133-1333"
+            }
+        },
+        {
+            "id": "education_unknown_institution_bachelor_of_arts_degree_english_literature_2007",
+            "label": "Education",
+            "properties": {
+                "name": "Unknown Institution Bachelor of Arts Degree English Literature (2007)",
+                "degree": "Bachelor",
+                "field_of_study": "of Arts Degree English Literature (2007)"
+            }
+        },
+        {
+            "id": "degree_bachelor",
+            "label": "Degree",
+            "properties": {
+                "name": "Bachelor"
+            }
+        },
+        {
+            "id": "person_aryan_sharma",
+            "label": "Person",
+            "properties": {
+                "name": "ARYAN SHARMA",
+                "email": "shrmaaryan.77@gmail.com",
+                "phone": "7644004689",
+                "linkedin": "linkedin.com/in/aryan-sharma-a02111402",
+                "github": "github.com/aryansh9090"
+            }
+        },
+        {
+            "id": "education_srm_institute_of_science_and_technology_chennai_india_2024_2028_b_tech_computer_science_and_engineering",
+            "label": "Education",
+            "properties": {
+                "name": "SRM Institute of Science and Technology Chennai, India (2024-2028) B.Tech Computer Science and Engineering",
+                "institution": "SRM Institute of Science and Technology Chennai, India (2024-2028)",
+                "degree": "B.Tech",
+                "field_of_study": "Computer Science and Engineering",
+                "start_date": "2024",
+                "end_date": "2028",
+                "graduation_year": 2028,
+                "cgpa": 9.18
+            }
+        },
+        {
+            "id": "institution_srm_institute_of_science_and_technology_chennai_india_2024_2028",
+            "label": "Institution",
+            "properties": {
+                "name": "SRM Institute of Science and Technology Chennai, India (2024-2028)"
+            }
+        },
+        {
+            "id": "degree_b_tech",
+            "label": "Degree",
+            "properties": {
+                "name": "B.Tech"
+            }
+        },
+        {
+            "id": "experience_accemberg_technologies_pvt_ltd_backend_development_intern",
+            "label": "Experience",
+            "properties": {
+                "name": "Accemberg Technologies Pvt. Ltd. Backend Development Intern",
+                "start_date": "June 2026",
+                "end_date": "July 2026",
+                "responsibilities": [
+                    "Worked across multiple client projects handling backend architecture and deployment, including Firebase (Auth, Firestore) integration",
+                    "and hosting/deployment on Vercel.",
+                    "Implemented authentication flows and managed secure environment/credential handling across projects.",
+                    "Deployed and maintained production builds, coordinating with frontend and API teams to ship features end-to-end."
+                ],
+                "achievements": []
+            }
+        },
+        {
+            "id": "company_accemberg_technologies_pvt_ltd",
+            "label": "Company",
+            "properties": {
+                "name": "Accemberg Technologies Pvt. Ltd."
+            }
+        },
+        {
+            "id": "jobrole_backend_development_intern",
+            "label": "JobRole",
+            "properties": {
+                "name": "Backend Development Intern"
+            }
+        },
+        {
+            "id": "experience_jharkhand_education_project_council_jepc_intern",
+            "label": "Experience",
+            "properties": {
+                "name": "Jharkhand Education Project Council (JEPC) Intern",
+                "start_date": "June 2026",
+                "end_date": "July 2026",
+                "responsibilities": [
+                    "Built RAG (Retrieval-Augmented Generation) pipelines to power an internal chatbot for querying domain-specific documents.",
+                    "Integrated NeMo Guardrails to enforce safe, on-topic, and policy-compliant chatbot responses."
+                ],
+                "achievements": [
+                    "Improved response accuracy and reliability through prompt engineering and retrieval tuning."
+                ]
+            }
+        },
+        {
+            "id": "company_jharkhand_education_project_council_jepc",
+            "label": "Company",
+            "properties": {
+                "name": "Jharkhand Education Project Council (JEPC)"
+            }
+        },
+        {
+            "id": "jobrole_intern",
+            "label": "JobRole",
+            "properties": {
+                "name": "Intern"
+            }
+        },
+        {
+            "id": "skill_python",
+            "label": "Skill",
+            "properties": {
+                "name": "Python",
+                "category": "programming_languages",
+                "source": "project_technology"
+            }
+        },
+        {
+            "id": "skill_java",
+            "label": "Skill",
+            "properties": {
+                "name": "Java",
+                "category": "programming_languages"
+            }
+        },
+        {
+            "id": "skill_javascript",
+            "label": "Skill",
+            "properties": {
+                "name": "JavaScript",
+                "category": "programming_languages"
+            }
+        },
+        {
+            "id": "skill_c",
+            "label": "Skill",
+            "properties": {
+                "name": "C++",
+                "category": "programming_languages"
+            }
+        },
+        {
+            "id": "skill_sql",
+            "label": "Skill",
+            "properties": {
+                "name": "SQL",
+                "category": "programming_languages"
+            }
+        },
+        {
+            "id": "skill_next_js",
+            "label": "Skill",
+            "properties": {
+                "name": "Next.js",
+                "category": "frameworks"
+            }
+        },
+        {
+            "id": "skill_react",
+            "label": "Skill",
+            "properties": {
+                "name": "React",
+                "category": "frameworks",
+                "source": "project_technology"
+            }
+        },
+        {
+            "id": "skill_django",
+            "label": "Skill",
+            "properties": {
+                "name": "Django",
+                "category": "frameworks",
+                "source": "project_technology"
+            }
+        },
+        {
+            "id": "skill_flask",
+            "label": "Skill",
+            "properties": {
+                "name": "Flask",
+                "category": "frameworks"
+            }
+        },
+        {
+            "id": "skill_fastapi",
+            "label": "Skill",
+            "properties": {
+                "name": "FastAPI",
+                "category": "frameworks",
+                "source": "project_technology"
+            }
+        },
+        {
+            "id": "skill_tailwind_css",
+            "label": "Skill",
+            "properties": {
+                "name": "Tailwind CSS",
+                "category": "frameworks"
+            }
+        },
+        {
+            "id": "skill_sqlite",
+            "label": "Skill",
+            "properties": {
+                "name": "SQLite",
+                "category": "databases"
+            }
+        },
+        {
+            "id": "skill_git",
+            "label": "Skill",
+            "properties": {
+                "name": "Git",
+                "category": "tools"
+            }
+        },
+        {
+            "id": "skill_github",
+            "label": "Skill",
+            "properties": {
+                "name": "GitHub",
+                "category": "tools"
+            }
+        },
+        {
+            "id": "skill_vs_code",
+            "label": "Skill",
+            "properties": {
+                "name": "VS Code",
+                "category": "tools"
+            }
+        },
+        {
+            "id": "skill_firebase",
+            "label": "Skill",
+            "properties": {
+                "name": "Firebase",
+                "category": "cloud"
+            }
+        },
+        {
+            "id": "skill_vercel",
+            "label": "Skill",
+            "properties": {
+                "name": "Vercel",
+                "category": "cloud"
+            }
+        },
+        {
+            "id": "project_ai_interview_preparation_platform",
+            "label": "Project",
+            "properties": {
+                "name": "AI Interview Preparation Platform",
+                "description": [
+                    "Designed and developed backend APIs using FastAPI to process user data and generate personalized interview questions.",
+                    "Built automated data ingestion and processing pipelines for resume parsing and dynamic question generation.",
+                    "Implemented real-time evaluation and scoring system using structured data storage and retrieval.",
+                    "Integrated NLP models to analyze user responses and improve feedback accuracy."
+                ],
+                "achievements": []
+            }
+        },
+        {
+            "id": "technology_python",
+            "label": "Technology",
+            "properties": {
+                "name": "Python"
+            }
+        },
+        {
+            "id": "technology_react",
+            "label": "Technology",
+            "properties": {
+                "name": "React"
+            }
+        },
+        {
+            "id": "technology_fastapi",
+            "label": "Technology",
+            "properties": {
+                "name": "FastAPI"
+            }
+        },
+        {
+            "id": "project_terramind_agri_intelligence_platform",
+            "label": "Project",
+            "properties": {
+                "name": "TerraMind – Agri Intelligence Platform",
+                "description": [
+                    "Built an ELT pipeline to ingest and transform satellite NDVI datasets for crop health monitoring.",
+                    "Processed and analyzed agricultural datasets to generate irrigation and soil recommendations.",
+                    "Designed dashboards to visualize processed data and provide actionable insights."
+                ],
+                "achievements": []
+            }
+        },
+        {
+            "id": "technology_django",
+            "label": "Technology",
+            "properties": {
+                "name": "Django"
+            }
+        },
+        {
+            "id": "project_crypto_trading_bot_simulated",
+            "label": "Project",
+            "properties": {
+                "name": "Crypto Trading Bot (Simulated)",
+                "description": [
+                    "Built a real-time data ingestion pipeline fetching live cryptocurrency price data via external REST APIs.",
+                    "Engineered a continuous ETL pipeline for data transformation and decision-making (BUY/HOLD logic).",
+                    "Designed modular, scalable code architecture for future integration with real trading systems."
+                ],
+                "achievements": []
+            }
+        },
+        {
+            "id": "certification_nptel_java_programming_oop_participant_codeathon_techformers_1_0",
+            "label": "Certification",
+            "properties": {
+                "name": "NPTEL – Java Programming & OOP | Participant – Codeathon Techformers 1.0"
+            }
+        },
+        {
+            "id": "certification_srm_hackathon_10_0_ranked_4th_out_of_200_teams_solved_100_questions_on_leetcode",
+            "label": "Certification",
+            "properties": {
+                "name": "SRM Hackathon 10.0 – Ranked 4th out of 200+ teams | Solved 100+ Questions on LeetCode"
+            }
+        },
+        {
+            "id": "certification_hackerrank_2_star_badge",
+            "label": "Certification",
+            "properties": {
+                "name": "HackerRank – 2 Star Badge"
+            }
+        },
+        {
+            "id": "course_data_structures_and_algorithms",
+            "label": "Course",
+            "properties": {
+                "name": "Data Structures and Algorithms"
+            }
+        },
+        {
+            "id": "course_database_management_systems",
+            "label": "Course",
+            "properties": {
+                "name": "Database Management Systems"
+            }
+        },
+        {
+            "id": "course_object_oriented_programming",
+            "label": "Course",
+            "properties": {
+                "name": "Object-Oriented Programming"
+            }
+        },
+        {
+            "id": "course_big_data_technologies",
+            "label": "Course",
+            "properties": {
+                "name": "Big Data Technologies"
+            }
+        },
+        {
+            "id": "course_computer",
+            "label": "Course",
+            "properties": {
+                "name": "Computer"
+            }
+        },
+        {
+            "id": "course_networks",
+            "label": "Course",
+            "properties": {
+                "name": "Networks"
+            }
+        },
+        {
+            "id": "course_operating_systems",
+            "label": "Course",
+            "properties": {
+                "name": "Operating Systems"
+            }
+        },
+        {
+            "id": "person_jaisal_rathi",
+            "label": "Person",
+            "properties": {
+                "name": "JAISAL RATHI",
+                "email": "jaisairathi@gmail.com",
+                "phone": "+91 82229 69798",
+                "linkedin": "linkedin.com/in/jaisal-rathi-a69485413",
+                "github": "github.com/Jaisalrathi1829"
+            }
+        },
+        {
+            "id": "education_unknown_institution_diploma_of_technology_computer_science_engineering",
+            "label": "Education",
+            "properties": {
+                "name": "Unknown Institution Diploma of Technology, Computer Science & Engineering",
+                "degree": "Diploma",
+                "field_of_study": "of Technology, Computer Science & Engineering",
+                "cgpa": 8.03
+            }
+        },
+        {
+            "id": "degree_diploma",
+            "label": "Degree",
+            "properties": {
+                "name": "Diploma"
+            }
+        },
+        {
+            "id": "skill_communication",
+            "label": "Skill",
+            "properties": {
+                "name": "Communication",
+                "category": "soft_skills"
+            }
+        },
+        {
+            "id": "skill_leadership",
+            "label": "Skill",
+            "properties": {
+                "name": "Leadership",
+                "category": "soft_skills"
+            }
+        },
+        {
+            "id": "skill_team_leadership",
+            "label": "Skill",
+            "properties": {
+                "name": "Team Leadership",
+                "category": "soft_skills"
+            }
+        },
+        {
+            "id": "skill_problem_solving",
+            "label": "Skill",
+            "properties": {
+                "name": "Problem Solving",
+                "category": "soft_skills"
+            }
+        },
+        {
+            "id": "project_docsahab_emergency_medical_coordination_platform",
+            "label": "Project",
+            "properties": {
+                "name": "Docsahab — Emergency Medical Coordination Platform",
+                "description": [
+                    "Designed a real-time emergency coordination platform for hospitals, ambulances, and healthcare resources."
+                ],
+                "achievements": []
+            }
+        },
+        {
+            "id": "project_optimized_the_emergency_response_golden_hour_workflow_across_patients_ambulances_and_hospitals",
+            "label": "Project",
+            "properties": {
+                "name": "Optimized the emergency response (“golden hour”) workflow across patients, ambulances, and hospitals",
+                "description": [
+                    "Designed a scalable backend architecture with a multi-state emergency lifecycle"
+                ],
+                "achievements": []
+            }
+        },
+        {
+            "id": "project_focused_on_data_reliability_and_operational_efficiency",
+            "label": "Project",
+            "properties": {
+                "name": "Focused on data reliability and operational efficiency",
+                "description": [],
+                "achievements": []
+            }
+        },
+        {
+            "id": "project_aurora_ai_driven_game",
+            "label": "Project",
+            "properties": {
+                "name": "Aurora — AI-Driven Game",
+                "description": [
+                    "Designed and developed an AI-driven game featuring sound-based enemy detection and predictive movement algo-"
+                ],
+                "achievements": []
+            }
+        },
+        {
+            "id": "project_rithms",
+            "label": "Project",
+            "properties": {
+                "name": "rithms.",
+                "description": [
+                    "Implemented intelligent NPC behaviour",
+                    "Built decision-making logic under uncertainty"
+                ],
+                "achievements": []
+            }
+        },
+        {
+            "id": "project_optimized_gameplay_mechanics",
+            "label": "Project",
+            "properties": {
+                "name": "Optimized gameplay mechanics",
+                "description": [],
+                "achievements": []
+            }
+        },
+        {
+            "id": "certification_object_oriented_programming_iit_roorkee",
+            "label": "Certification",
+            "properties": {
+                "name": "Object-Oriented Programming — IIT Roorkee"
+            }
+        },
+        {
+            "id": "certification_data_science_bootcamp_6_weeks_geeksforgeeks",
+            "label": "Certification",
+            "properties": {
+                "name": "Data Science Bootcamp (6 Weeks) — GeeksforGeeks"
+            }
+        },
+        {
+            "id": "certification_financial_analysis_market_fundamentals_level_2",
+            "label": "Certification",
+            "properties": {
+                "name": "Financial Analysis & Market Fundamentals (Level 2)"
+            }
+        },
+        {
+            "id": "certification_stock_analysis",
+            "label": "Certification",
+            "properties": {
+                "name": "Stock Analysis"
+            }
+        },
+        {
+            "id": "achievement_secured_a_top_10_position_in_a_hackathon_while_competing_individually_without_a_team",
+            "label": "Achievement",
+            "properties": {
+                "name": "Secured a Top 10 position in a hackathon while competing individually without a team"
+            }
+        },
+        {
+            "id": "achievement_former_member_mensa",
+            "label": "Achievement",
+            "properties": {
+                "name": "Former Member — Mensa"
+            }
+        },
+        {
+            "id": "achievement_recognized_for_strong_debating_and_analytical_communication_skills_at_state_level_platforms",
+            "label": "Achievement",
+            "properties": {
+                "name": "Recognized for strong debating and analytical communication skills at state-level platforms"
+            }
+        },
+        {
+            "id": "language_hindi_fluent_english_fluent_spanish_elementary",
+            "label": "Language",
+            "properties": {
+                "name": "Hindi (Fluent) — English (Fluent) — Spanish (Elementary)"
+            }
+        },
+        {
+            "id": "leadershipexperience_team_member_hack_the_box_chennai_club",
+            "label": "LeadershipExperience",
+            "properties": {
+                "name": "Team Member — Hack The Box Chennai Club"
+            }
+        },
+        {
+            "id": "leadershipexperience_aug_2024_feb_2026",
+            "label": "LeadershipExperience",
+            "properties": {
+                "name": "Aug 2024 – Feb 2026"
+            }
+        },
+        {
+            "id": "leadershipexperience_led_team_coordination_during_high_pressure_scenarios_achieving_maximum_participation_through_effective_commu",
+            "label": "LeadershipExperience",
+            "properties": {
+                "name": "Led team coordination during high-pressure scenarios, achieving maximum participation through effective commu-"
+            }
+        },
+        {
+            "id": "leadershipexperience_nication_and_planning",
+            "label": "LeadershipExperience",
+            "properties": {
+                "name": "nication and planning"
+            }
+        },
+        {
+            "id": "person_lucy_harding",
+            "label": "Person",
+            "properties": {
+                "name": "Lucy Harding",
+                "email": "hello@reallygreatsite.com",
+                "phone": "123-456-7890"
+            }
+        },
+        {
+            "id": "education_westbrook_college",
+            "label": "Education",
+            "properties": {
+                "name": "Westbrook College",
+                "institution": "Westbrook College"
+            }
+        },
+        {
+            "id": "institution_westbrook_college",
+            "label": "Institution",
+            "properties": {
+                "name": "Westbrook College"
+            }
+        },
+        {
+            "id": "skill_teamwork",
+            "label": "Skill",
+            "properties": {
+                "name": "Teamwork",
+                "category": "soft_skills"
+            }
+        },
+        {
+            "id": "training_customer_communication_course",
+            "label": "Training",
+            "properties": {
+                "name": "Customer Communication Course"
+            }
+        },
+        {
+            "id": "training_workplace_safety_training",
+            "label": "Training",
+            "properties": {
+                "name": "Workplace Safety Training"
+            }
+        },
+        {
+            "id": "training_conflict_resolution_awareness",
+            "label": "Training",
+            "properties": {
+                "name": "Conflict Resolution Awareness"
+            }
+        },
+        {
+            "id": "training_references_available_upon_request",
+            "label": "Training",
+            "properties": {
+                "name": "References available upon request."
+            }
+        },
+        {
+            "id": "person_varad_singhal",
+            "label": "Person",
+            "properties": {
+                "name": "Varad Singhal",
+                "email": "varadsinghal1526@gmail.com",
+                "phone": "+91-7805841826",
+                "linkedin": "linkedin.com/in/varad-singhal-ba1361326",
+                "portfolio": "varadsinghal-portfolio4.vercel.app"
+            }
+        },
+        {
+            "id": "education_srm_institute_of_science_and_technology_b_tech_honors_in_financial_technology",
+            "label": "Education",
+            "properties": {
+                "name": "SRM Institute of Science and Technology B.Tech Honors in Financial Technology",
+                "institution": "SRM Institute of Science and Technology",
+                "degree": "B.Tech",
+                "field_of_study": "Honors in Financial Technology",
+                "graduation_year": 2027,
+                "cgpa": 10.0
+            }
+        },
+        {
+            "id": "institution_srm_institute_of_science_and_technology",
+            "label": "Institution",
+            "properties": {
+                "name": "SRM Institute of Science and Technology"
+            }
+        },
+        {
+            "id": "project_sephela_enterprise_platform_for_genai_based_automated_analysis_and_risk_scoring_of_fraudulent_android_apks",
+            "label": "Project",
+            "properties": {
+                "name": "Sephela – Enterprise platform for GenAI-based automated analysis and risk scoring of fraudulent Android APKs",
+                "description": [],
+                "achievements": []
+            }
+        },
+        {
+            "id": "project_built_for_banking_cybersecurity_teams",
+            "label": "Project",
+            "properties": {
+                "name": "— built for banking cybersecurity teams",
+                "description": [],
+                "achievements": []
+            }
+        },
+        {
+            "id": "project_busmitra_real_time_bus_tracking_system_combining_a",
+            "label": "Project",
+            "properties": {
+                "name": "BusMitra – Real-time bus tracking system combining a",
+                "description": [],
+                "achievements": []
+            }
+        },
+        {
+            "id": "technology_flutter",
+            "label": "Technology",
+            "properties": {
+                "name": "Flutter"
+            }
+        },
+        {
+            "id": "skill_flutter",
+            "label": "Skill",
+            "properties": {
+                "name": "Flutter",
+                "source": "project_technology"
+            }
+        },
+        {
+            "id": "project_share_live_bus_locations_and_predict_arrival_times_improving_public_transport_reliability_and_fleet_monitoring_for",
+            "label": "Project",
+            "properties": {
+                "name": "share live bus locations and predict arrival times, improving public transport reliability and fleet monitoring for",
+                "description": [],
+                "achievements": []
+            }
+        },
+        {
+            "id": "project_authorities_try_it_out",
+            "label": "Project",
+            "properties": {
+                "name": "authorities. Try it out",
+                "description": [],
+                "achievements": []
+            }
+        },
+        {
+            "id": "project_gigkavach_built_an_ai_powered_mobile_platform_delivering_parametric_income_insurance_and_earnings_intelligence",
+            "label": "Project",
+            "properties": {
+                "name": "Gigkavach – Built an AI-powered mobile platform delivering parametric income insurance and earnings intelligence",
+                "description": [],
+                "achievements": []
+            }
+        },
+        {
+            "id": "project_for_food_delivery_gig_workers_auto_triggering_disruption_payouts_rain_aqi_flooding_via_real_time_api_monitoring",
+            "label": "Project",
+            "properties": {
+                "name": "for food-delivery gig workers, auto-triggering disruption payouts (rain, AQI, flooding) via real-time API monitoring",
+                "description": [],
+                "achievements": []
+            }
+        },
+        {
+            "id": "project_with_zero_manual_claims_filing_try_it_out",
+            "label": "Project",
+            "properties": {
+                "name": "with zero manual claims filing. Try it out",
+                "description": [],
+                "achievements": []
+            }
+        },
+        {
+            "id": "project_achievements_and_campus_involvement",
+            "label": "Project",
+            "properties": {
+                "name": "Achievements and Campus Involvement",
+                "description": [],
+                "achievements": []
+            }
+        },
+        {
+            "id": "project_first_place_innofusion_26_hackathon_organized_by_the_dsbs_department",
+            "label": "Project",
+            "properties": {
+                "name": "First Place, Innofusion ’26 – hackathon organized by the DSBS Department",
+                "description": [],
+                "achievements": []
+            }
+        },
+        {
+            "id": "project_first_place_pokeverse_ideathon_organized_by_srm_acm_sigkdd",
+            "label": "Project",
+            "properties": {
+                "name": "First Place, PokeVerse Ideathon – organized by SRM ACM SIGKDD",
+                "description": [],
+                "achievements": []
+            }
+        },
+        {
+            "id": "project_ibm_android_and_ios_application_developer_certification",
+            "label": "Project",
+            "properties": {
+                "name": "IBM Android and iOS Application Developer Certification",
+                "description": [],
+                "achievements": []
+            }
+        },
+        {
+            "id": "project_salesforce_certified_agentforce_specialist",
+            "label": "Project",
+            "properties": {
+                "name": "Salesforce Certified Agentforce Specialist",
+                "description": [],
+                "achievements": []
+            }
+        },
+        {
+            "id": "project_oracle_agentic_ai_certified_foundations_associate",
+            "label": "Project",
+            "properties": {
+                "name": "Oracle Agentic AI Certified Foundations Associate",
+                "description": [],
+                "achievements": []
+            }
+        },
+        {
+            "id": "technology_oracle",
+            "label": "Technology",
+            "properties": {
+                "name": "Oracle"
+            }
+        },
+        {
+            "id": "skill_oracle",
+            "label": "Skill",
+            "properties": {
+                "name": "Oracle",
+                "source": "project_technology"
+            }
+        },
+        {
+            "id": "project_technical_team_member_google_developer_groups_qwiklab_developer_club_microsoft_student_ambassador",
+            "label": "Project",
+            "properties": {
+                "name": "Technical Team Member – Google Developer Groups, Qwiklab Developer Club, Microsoft Student Ambassador,",
+                "description": [],
+                "achievements": []
+            }
+        },
+        {
+            "id": "project_coding_ninjas_10x",
+            "label": "Project",
+            "properties": {
+                "name": "Coding Ninjas 10X",
+                "description": [],
+                "achievements": []
+            }
+        },
+        {
+            "id": "language_java_dart_python_c_c_sql",
+            "label": "Language",
+            "properties": {
+                "name": "Java, Dart, Python, C/C++, SQL"
+            }
+        },
+        {
+            "id": "language_cloud_devops",
+            "label": "Language",
+            "properties": {
+                "name": "Cloud & DevOps"
+            }
+        },
+        {
+            "id": "language_aws_lambda_rds_s3_ssm_amazon_bedrock_titan_v2_git",
+            "label": "Language",
+            "properties": {
+                "name": "AWS Lambda, RDS, S3, SSM, Amazon Bedrock (Titan V2), Git"
+            }
+        },
+        {
+            "id": "language_frameworks_tools",
+            "label": "Language",
+            "properties": {
+                "name": "Frameworks/Tools"
+            }
+        },
+        {
+            "id": "language_flutter_react_node_js_firebase_rest_apis",
+            "label": "Language",
+            "properties": {
+                "name": "Flutter, React, Node.js, Firebase, REST APIs"
+            }
+        },
+        {
+            "id": "language_iot_technologies",
+            "label": "Language",
+            "properties": {
+                "name": "IoT Technologies"
+            }
+        },
+        {
+            "id": "language_esp32_arduino_sensors_mqtt_embedded_systems",
+            "label": "Language",
+            "properties": {
+                "name": "ESP32, Arduino, Sensors, MQTT, Embedded Systems"
+            }
+        },
+        {
+            "id": "language_soft_skills",
+            "label": "Language",
+            "properties": {
+                "name": "Soft Skills"
+            }
+        },
+        {
+            "id": "language_problem_solving_team_collaboration_communication_time_management",
+            "label": "Language",
+            "properties": {
+                "name": "Problem Solving, Team Collaboration, Communication, Time Management"
+            }
+        },
+        {
+            "id": "person_jacob_j_jacoby",
+            "label": "Person",
+            "properties": {
+                "name": "JACOB J. JACOBY",
+                "email": "jjjacoby@roadrunner.com",
+                "phone": "123) 456-7890"
+            }
+        },
+        {
+            "id": "certification_washington_registered_plumbing_apprentice_id_number_ocalljr941mp",
+            "label": "Certification",
+            "properties": {
+                "name": "Washington Registered Plumbing Apprentice (ID Number: OCALLJR941MP)"
+            }
+        },
+        {
+            "id": "certification_idaho_registered_plumbing_apprentice_id_number_5101",
+            "label": "Certification",
+            "properties": {
+                "name": "Idaho Registered Plumbing Apprentice (ID Number: 5101)"
+            }
+        },
+        {
+            "id": "certification_cpr_certified",
+            "label": "Certification",
+            "properties": {
+                "name": "CPR Certified"
+            }
+        },
+        {
+            "id": "organization_",
+            "label": "Organization",
+            "properties": {
+                "name": ""
+            }
+        },
+        {
+            "id": "organization_member_helmets_to_hard_hats_2008_present",
+            "label": "Organization",
+            "properties": {
+                "name": "Member, Helmets to Hard Hats, 2008 - Present"
+            }
+        },
+        {
+            "id": "organization_resume_contributed_for_sample_purposes_only",
+            "label": "Organization",
+            "properties": {
+                "name": "Resume Contributed for Sample Purposes Only"
+            }
+        },
+        {
+            "id": "organization_written_by_frontrunneronline_com",
+            "label": "Organization",
+            "properties": {
+                "name": "Written by FrontRunnerOnline.com"
+            }
+        },
+        {
+            "id": "organization_jacob_j_jacoby",
+            "label": "Organization",
+            "properties": {
+                "name": "Jacob J. Jacoby"
+            }
+        },
+        {
+            "id": "organization_resume_page_two",
+            "label": "Organization",
+            "properties": {
+                "name": "Resume Page Two"
+            }
+        },
+        {
+            "id": "militaryexperience_united_states_army",
+            "label": "MilitaryExperience",
+            "properties": {
+                "name": "United States Army"
+            }
+        },
+        {
+            "id": "militaryexperience_mar_1998_mar_2002",
+            "label": "MilitaryExperience",
+            "properties": {
+                "name": "Mar. 1998 – Mar. 2002"
+            }
+        },
+        {
+            "id": "militaryexperience_honorable_discharge_rank_of_sergeant_e_5",
+            "label": "MilitaryExperience",
+            "properties": {
+                "name": "Honorable Discharge – Rank of Sergeant/E-5"
+            }
+        },
+        {
+            "id": "militaryexperience_primary_leadership_development_course",
+            "label": "MilitaryExperience",
+            "properties": {
+                "name": "Primary Leadership Development Course"
+            }
+        },
+        {
+            "id": "militaryexperience_graduated_april_2000",
+            "label": "MilitaryExperience",
+            "properties": {
+                "name": "Graduated: April 2000"
+            }
+        },
+        {
+            "id": "militaryexperience_combat_communications_course",
+            "label": "MilitaryExperience",
+            "properties": {
+                "name": "Combat Communications Course"
+            }
+        },
+        {
+            "id": "militaryexperience_completed_june_1999",
+            "label": "MilitaryExperience",
+            "properties": {
+                "name": "Completed: June 1999"
+            }
+        },
+        {
+            "id": "militaryexperience_combat_lifesaver_course_re_up_certification_every_year",
+            "label": "MilitaryExperience",
+            "properties": {
+                "name": "Combat Lifesaver Course (re-up certification every year)"
+            }
+        },
+        {
+            "id": "militaryexperience_completed_may_1999",
+            "label": "MilitaryExperience",
+            "properties": {
+                "name": "Completed: May 1999"
+            }
+        },
+        {
+            "id": "militaryexperience_air_assault_school_ft_campbell_kentucky",
+            "label": "MilitaryExperience",
+            "properties": {
+                "name": "Air Assault School, Ft. Campbell Kentucky"
+            }
+        },
+        {
+            "id": "militaryexperience_graduated_sept_1998",
+            "label": "MilitaryExperience",
+            "properties": {
+                "name": "Graduated: Sept. 1998"
+            }
+        },
+        {
+            "id": "militaryexperience_united_states_infantry_training_brigade",
+            "label": "MilitaryExperience",
+            "properties": {
+                "name": "United States Infantry Training Brigade"
+            }
+        },
+        {
+            "id": "militaryexperience_completed_june_1998",
+            "label": "MilitaryExperience",
+            "properties": {
+                "name": "Completed: June 1998"
+            }
+        },
+        {
+            "id": "militaryexperience_achievements_include",
+            "label": "MilitaryExperience",
+            "properties": {
+                "name": "Achievements include:"
+            }
+        },
+        {
+            "id": "militaryexperience_",
+            "label": "MilitaryExperience",
+            "properties": {
+                "name": ""
+            }
+        },
+        {
+            "id": "militaryexperience_army_commendation_medal_2_time_recipient",
+            "label": "MilitaryExperience",
+            "properties": {
+                "name": "Army Commendation Medal (2-time recipient)"
+            }
+        },
+        {
+            "id": "militaryexperience_army_achievement_medal_2_time_recipient",
+            "label": "MilitaryExperience",
+            "properties": {
+                "name": "Army Achievement Medal (2-time recipient)"
+            }
+        },
+        {
+            "id": "militaryexperience_promoted_from_a_private_e_1_to_a_sergeant_e_5",
+            "label": "MilitaryExperience",
+            "properties": {
+                "name": "Promoted from a Private/E-1 to a Sergeant/E-5"
+            }
+        },
+        {
+            "id": "militaryexperience_elevated_to_team_leader_corporal_squad_leader_and_training_room_nco",
+            "label": "MilitaryExperience",
+            "properties": {
+                "name": "Elevated to Team Leader, Corporal Squad Leader, and Training Room NCO"
+            }
+        },
+        {
+            "id": "militaryexperience_received_nato_medal_and_kosovo_campaign_ribbon",
+            "label": "MilitaryExperience",
+            "properties": {
+                "name": "Received NATO Medal and Kosovo Campaign Ribbon"
+            }
+        },
+        {
+            "id": "militaryexperience_time_served_in_pakistan_afghanistan_south_east_asia_for_operation_enduring_freedom",
+            "label": "MilitaryExperience",
+            "properties": {
+                "name": "Time served in Pakistan / Afghanistan / South East Asia for Operation Enduring Freedom"
+            }
+        },
+        {
+            "id": "militaryexperience_expert_infantryman_s_badge",
+            "label": "MilitaryExperience",
+            "properties": {
+                "name": "Expert Infantryman’s Badge"
+            }
+        },
+        {
+            "id": "person_vince_d_conlan",
+            "label": "Person",
+            "properties": {
+                "name": "VINCE D. CONLAN",
+                "email": "vconlan@yahoo.com",
+                "phone": "817) 466-0015"
+            }
+        },
+        {
+            "id": "education_b_s_in_professional_aeronautics_embry_riddle_aeronautical_university_fort_worth_tx_b_s_in_professional_aeronautics_embry_riddle_aeronautical_university_fort_worth_tx",
+            "label": "Education",
+            "properties": {
+                "name": "B.S. in Professional Aeronautics: EMBRY-RIDDLE AERONAUTICAL UNIVERSITY, Fort Worth, TX B.S . in Professional Aeronautics: EMBRY-RIDDLE AERONAUTICAL UNIVERSITY, Fort Worth, TX",
+                "institution": "B.S. in Professional Aeronautics: EMBRY-RIDDLE AERONAUTICAL UNIVERSITY, Fort Worth, TX",
+                "degree": "B.S",
+                "field_of_study": ". in Professional Aeronautics: EMBRY-RIDDLE AERONAUTICAL UNIVERSITY, Fort Worth, TX"
+            }
+        },
+        {
+            "id": "institution_b_s_in_professional_aeronautics_embry_riddle_aeronautical_university_fort_worth_tx",
+            "label": "Institution",
+            "properties": {
+                "name": "B.S. in Professional Aeronautics: EMBRY-RIDDLE AERONAUTICAL UNIVERSITY, Fort Worth, TX"
+            }
+        },
+        {
+            "id": "degree_b_s",
+            "label": "Degree",
+            "properties": {
+                "name": "B.S"
+            }
+        },
+        {
+            "id": "experience_manager_airframes_intermediate_maintenance_fleet_readiness_center_fort_worth_tx_2006",
+            "label": "Experience",
+            "properties": {
+                "name": "Manager, Airframes Intermediate Maintenance, Fleet Readiness Center, Fort Worth, TX (2006",
+                "start_date": "2006",
+                "end_date": "2008",
+                "responsibilities": [
+                    "Manage and coordinate team of 40 Navy/Marine Corps personnel across 9 work centers in conducting inspections,",
+                    "diagnosing issues, and repairing hydraulic, pneumatic, and structural components within aircraft (e.g. Boeing F/A-18",
+                    "& 737, Lockheed C-130 and P-3).",
+                    "KEY CONTRIBUTIONS & ACCOMPLISHMENTS:",
+                    "Implemented and utilized Lean/Six Sigma Principles and Basic Theories of Constraint to generate",
+                    "reduction in Time-To-Reliably Replenish aircraft components from average of 21 to 16 days.",
+                    "for team member to DEPOT-level Composite Artisan, coordinating training with Fleet Readiness Office and",
+                    "field personnel. Provided data to support Hydraulic Artisans, with estimated $900,000 annual cost savings."
+                ],
+                "achievements": [
+                    "Increased repair capabilities and drove estimated annual cost savings of $450,000 by leading transition"
+                ]
+            }
+        },
+        {
+            "id": "company_manager_airframes_intermediate_maintenance_fleet_readiness_center_fort_worth_tx_2006",
+            "label": "Company",
+            "properties": {
+                "name": "Manager, Airframes Intermediate Maintenance, Fleet Readiness Center, Fort Worth, TX (2006"
+            }
+        },
+        {
+            "id": "experience_director_of_aircraft_maintenance_fort_worth_tx_2000",
+            "label": "Experience",
+            "properties": {
+                "name": "Director of Aircraft Maintenance, Fort Worth, TX (2000",
+                "start_date": "2000",
+                "end_date": "2006",
+                "responsibilities": [
+                    "Held full responsibility for managing 12 work centers and 110 team members in repair/maintenance of 12 F/A-18",
+                    "Strike Fighter aircraft. Planned and scheduled maintenance (including offsite major re-work and overhaul),",
+                    "incorporated Air Worthiness Directives, tracked and scheduled High-Time Components replacements, conducted",
+                    "aircraft inspections, and updated Aeronautical Log Books. Informed relevant team members on aircraft status and",
+                    "readiness. Trained, mentored, and evaluated personnel. Oversaw detachment logistics, including personnel,",
+                    "transportation, and resources.",
+                    "Created and implemented short-term and long-range maintenance plans to maximize asset availability,",
+                    "leading to 74% increase in Full Mission Capable Status aircraft. Implemented an Aircraft Detachment Phase",
+                    "Program that allowed for additional assets while deployed, significantly reducing phase backlog.",
+                    "Successfully completed 270 combat missions and 18,000 flight hours, achieving accurate delivery for",
+                    "220,000+ lbs. of precision-guided ordnance during high-tempo flight deck operation onboard the U.S.S.",
+                    "Theodore Roosevelt (CVN-71) in support of Operation Iraqi Freedom.",
+                    "Led efforts in alleviating problems with parts flow to and from geographically dispersed locations by",
+                    "implementing program in which supply personnel accompanied squadron on detachments, ensuring 100%",
+                    "Resume Contributed for Sample Purposes Only",
+                    "Written by ©AResumeWizard.com",
+                    "VINCE D. CONLAN – PAGE 2",
+                    "Home: (817) 466-0015  Cell: (817) 466-0017  vconlan@yahoo.com",
+                    "QA Inspector, Fort Worth, TX (2000 – 2006)",
+                    "Managed all functions and activities within the Quality Assurance Department, maintaining 12 F/A-18 multi-engine",
+                    "aircraft. Directed daily execution for 6 aircraft quality assurance managed programs, 36 monitored programs, and 28",
+                    "aircraft maintenance inspectors; coordinated technical support tasks. Evaluated training programs, inspected aircraft,",
+                    "and interviewed inspectors for qualification and re-certification. Analyzed trends to identify aircraft discrepancies,",
+                    "inspection procedures, and workmanship. Ensured compliance with all Airworthiness Directives.",
+                    "Implemented aggressive FOD control program; purchased new FOD clean-up equipment and analyzed",
+                    "Sample",
+                    "Aggressively planned, implemented, and trained 3 teams of technicians through major post-deployment",
+                    "corrosion inspection on 12 aircraft, leading to the discovery and documentation of over 3,300 corrosion",
+                    "discrepancies, as well as subsequently successful Material Condition inspection."
+                ],
+                "achievements": [
+                    "component accountability, reduced parts turnaround time, and 90% Full Mission Capable Rate.",
+                    "trends to identify potential hazardous areas. Reduced aircraft FOD incidents from 3 to zero."
+                ]
+            }
+        },
+        {
+            "id": "company_director_of_aircraft_maintenance_fort_worth_tx_2000",
+            "label": "Company",
+            "properties": {
+                "name": "Director of Aircraft Maintenance, Fort Worth, TX (2000"
+            }
+        },
+        {
+            "id": "experience_airframes_work_center_supervisor_lemoore_ca_1995",
+            "label": "Experience",
+            "properties": {
+                "name": "Airframes Work Center Supervisor, Lemoore, CA (1995",
+                "start_date": "1995",
+                "end_date": "2000",
+                "responsibilities": [
+                    "Oversaw production activities of over 30 team members performing both scheduled and unscheduled maintenance on",
+                    "hydraulics, pneumatics, structures, landing gear, and flight controls on 50 Boeing F/A-18 B/C/D aircraft. Coordinated",
+                    "all maintenance initiatives within the Airframes Work Center, including planned safety programs, related equipment,",
+                    "and assigned work areas. Evaluated requirements and requested technical assistance from contractor representatives.",
+                    "Organized and conducted training; exercised leadership and motivational techniques towards work center personnel.",
+                    "inspectors to specific aircraft and holding them accountable for monitoring discrepancies, ordering",
+                    "replacement parts, and enabling quick, timely repairs.",
+                    "program; led initial maintenance efforts for VFA-125’s traveling Demonstration Team."
+                ],
+                "achievements": [
+                    "Reduced average airframe discrepancy count from 7 to 2.5 per aircraft by assigning work center",
+                    "Generated 40% increase in shop qualifications by implementing work center qualification training"
+                ]
+            }
+        },
+        {
+            "id": "company_airframes_work_center_supervisor_lemoore_ca_1995",
+            "label": "Company",
+            "properties": {
+                "name": "Airframes Work Center Supervisor, Lemoore, CA (1995"
+            }
+        },
+        {
+            "id": "person_richard_a_levinson",
+            "label": "Person",
+            "properties": {
+                "name": "RICHARD A. LEVINSON",
+                "email": "rlevinson@yahoo.com",
+                "phone": "817-466-0015"
+            }
+        },
+        {
+            "id": "education_unknown_institution_bachelor_of_science_in_health_administration",
+            "label": "Education",
+            "properties": {
+                "name": "Unknown Institution Bachelor of Science in Health Administration",
+                "degree": "Bachelor",
+                "field_of_study": "of Science in Health Administration"
+            }
+        },
+        {
+            "id": "experience_unknown_company",
+            "label": "Experience",
+            "properties": {
+                "name": "Unknown Company",
+                "start_date": "1998",
+                "end_date": "2001",
+                "responsibilities": [
+                    "Directed 6 QA managed programs and 36 monitored programs, supervising 28 inspectors. Analyzed training programs,",
+                    "inspected aircraft, and evaluated inspectors for qualification and re-certification purposes. Conducted trend analysis for",
+                    "discrepancies, procedures, and workmanship. Ensured compliance with specifications for engineering investigations,",
+                    "accident/violation reports, and technical support.",
+                    "Built training program for qualifying QA personnel in order to expedite qualification process and ensure",
+                    "adequate training for team members to perform their duties.",
+                    "Contributed significantly to operations’ receipt of 1st-ever Maintenance and Safety awards; personally",
+                    "received Humanitarian Medal for participation in rescue mission in Africa."
+                ],
+                "achievements": []
+            }
+        },
+        {
+            "id": "certification_lean_six_sigma_green_belt_certified_advanced_critical_incident_stress_management_instructor_certified_in",
+            "label": "Certification",
+            "properties": {
+                "name": "Lean Six Sigma Green Belt Certified; Advanced Critical Incident Stress Management; Instructor Certified in"
+            }
+        },
+        {
+            "id": "certification_myers_briggs_type_indicator_mbti",
+            "label": "Certification",
+            "properties": {
+                "name": "Myers-Briggs Type Indicator (MBTI)"
+            }
+        },
+        {
+            "id": "achievement_joint_commendation_medal_for_coordination_of_relief_efforts_in_tsunami_regions_of_thailand_2005",
+            "label": "Achievement",
+            "properties": {
+                "name": " Joint Commendation Medal- for coordination of relief efforts in Tsunami regions of Thailand, 2005"
+            }
+        },
+        {
+            "id": "achievement_commendation_medal_for_successful_coordination_and_delivery_of_1_000_tons_of_relief_to_iraq",
+            "label": "Achievement",
+            "properties": {
+                "name": " Commendation Medal- for successful coordination and delivery of 1,000+ tons of relief to Iraq"
+            }
+        },
+        {
+            "id": "achievement_numerous_additional_awards_for_performance_effort_and_dedication_across_multiple_programs",
+            "label": "Achievement",
+            "properties": {
+                "name": " Numerous additional awards- for performance, effort, and dedication across multiple programs"
+            }
+        },
+        {
+            "id": "achievement_resume_contributed_for_sample_purposes_only",
+            "label": "Achievement",
+            "properties": {
+                "name": "Resume Contributed for Sample Purposes Only"
+            }
+        },
+        {
+            "id": "achievement_written_by_aresumewizard_com",
+            "label": "Achievement",
+            "properties": {
+                "name": "Written by ©AResumeWizard.com"
+            }
+        },
+        {
+            "id": "person_david_h_anders",
+            "label": "Person",
+            "properties": {
+                "name": "DAVID H. ANDERS",
+                "email": "danders@yahoo.com",
+                "phone": "817) 466-0015"
+            }
+        },
+        {
+            "id": "education_unknown_institution_bachelor_of_science_in_professional_aeronautics_minor_in_management",
+            "label": "Education",
+            "properties": {
+                "name": "Unknown Institution Bachelor of Science in Professional Aeronautics, Minor in Management",
+                "degree": "Bachelor",
+                "field_of_study": "of Science in Professional Aeronautics, Minor in Management"
+            }
+        },
+        {
+            "id": "person_george_redmond",
+            "label": "Person",
+            "properties": {
+                "name": "GEORGE REDMOND",
+                "email": "g.redmond@email.com",
+                "phone": "207-555-1212"
+            }
+        },
+        {
+            "id": "education_unknown_institution_me_of_science_in_business_administration",
+            "label": "Education",
+            "properties": {
+                "name": "Unknown Institution ME of Science in Business Administration",
+                "degree": "ME",
+                "field_of_study": "of Science in Business Administration"
+            }
+        },
+        {
+            "id": "degree_me",
+            "label": "Degree",
+            "properties": {
+                "name": "ME"
+            }
+        },
+        {
+            "id": "training_professional_selling_skills_prospecting_tools_and_techniques",
+            "label": "Training",
+            "properties": {
+                "name": "Professional Selling Skills ♦ Prospecting Tools and Techniques"
+            }
+        },
+        {
+            "id": "training_essentials_of_communicating_with_diplomacy_and_professionalism",
+            "label": "Training",
+            "properties": {
+                "name": "Essentials of Communicating with Diplomacy and Professionalism"
+            }
+        },
+        {
+            "id": "training_the_upside_of_upselling_how_to_attract_new_customers",
+            "label": "Training",
+            "properties": {
+                "name": "The Upside of Upselling ♦ How to Attract New Customers"
+            }
+        },
+        {
+            "id": "training_market_for_success_how_to_compete_against_the_big_box_stores",
+            "label": "Training",
+            "properties": {
+                "name": "Market for Success ♦ How to Compete Against the Big Box Stores"
+            }
+        },
+        {
+            "id": "person_resume_for_sample_purposes_only",
+            "label": "Person",
+            "properties": {
+                "name": "Resume for Sample Purposes Only"
+            }
+        }
+    ],
+    "relationships": [
+        {
+            "source": "person_jennifer_hall",
+            "type": "HAS_EDUCATION",
+            "target": "education_unknown_institution_bachelor_of_arts_degree_english_literature_2007"
+        },
+        {
+            "source": "education_unknown_institution_bachelor_of_arts_degree_english_literature_2007",
+            "type": "HAS_DEGREE",
+            "target": "degree_bachelor"
+        },
+        {
+            "source": "person_aryan_sharma",
+            "type": "HAS_EDUCATION",
+            "target": "education_srm_institute_of_science_and_technology_chennai_india_2024_2028_b_tech_computer_science_and_engineering"
+        },
+        {
+            "source": "person_aryan_sharma",
+            "type": "STUDIED_AT",
+            "target": "institution_srm_institute_of_science_and_technology_chennai_india_2024_2028"
+        },
+        {
+            "source": "education_srm_institute_of_science_and_technology_chennai_india_2024_2028_b_tech_computer_science_and_engineering",
+            "type": "AT_INSTITUTION",
+            "target": "institution_srm_institute_of_science_and_technology_chennai_india_2024_2028"
+        },
+        {
+            "source": "education_srm_institute_of_science_and_technology_chennai_india_2024_2028_b_tech_computer_science_and_engineering",
+            "type": "HAS_DEGREE",
+            "target": "degree_b_tech"
+        },
+        {
+            "source": "person_aryan_sharma",
+            "type": "HAS_EXPERIENCE",
+            "target": "experience_accemberg_technologies_pvt_ltd_backend_development_intern"
+        },
+        {
+            "source": "person_aryan_sharma",
+            "type": "WORKED_AT",
+            "target": "company_accemberg_technologies_pvt_ltd"
+        },
+        {
+            "source": "experience_accemberg_technologies_pvt_ltd_backend_development_intern",
+            "type": "AT_COMPANY",
+            "target": "company_accemberg_technologies_pvt_ltd"
+        },
+        {
+            "source": "experience_accemberg_technologies_pvt_ltd_backend_development_intern",
+            "type": "HAS_ROLE",
+            "target": "jobrole_backend_development_intern"
+        },
+        {
+            "source": "person_aryan_sharma",
+            "type": "HAS_EXPERIENCE",
+            "target": "experience_jharkhand_education_project_council_jepc_intern"
+        },
+        {
+            "source": "person_aryan_sharma",
+            "type": "WORKED_AT",
+            "target": "company_jharkhand_education_project_council_jepc"
+        },
+        {
+            "source": "experience_jharkhand_education_project_council_jepc_intern",
+            "type": "AT_COMPANY",
+            "target": "company_jharkhand_education_project_council_jepc"
+        },
+        {
+            "source": "experience_jharkhand_education_project_council_jepc_intern",
+            "type": "HAS_ROLE",
+            "target": "jobrole_intern"
+        },
+        {
+            "source": "person_aryan_sharma",
+            "type": "HAS_SKILL",
+            "target": "skill_python",
+            "properties": {
+                "category": "programming_languages"
+            }
+        },
+        {
+            "source": "person_aryan_sharma",
+            "type": "HAS_SKILL",
+            "target": "skill_java",
+            "properties": {
+                "category": "programming_languages"
+            }
+        },
+        {
+            "source": "person_aryan_sharma",
+            "type": "HAS_SKILL",
+            "target": "skill_javascript",
+            "properties": {
+                "category": "programming_languages"
+            }
+        },
+        {
+            "source": "person_aryan_sharma",
+            "type": "HAS_SKILL",
+            "target": "skill_c",
+            "properties": {
+                "category": "programming_languages"
+            }
+        },
+        {
+            "source": "person_aryan_sharma",
+            "type": "HAS_SKILL",
+            "target": "skill_sql",
+            "properties": {
+                "category": "programming_languages"
+            }
+        },
+        {
+            "source": "person_aryan_sharma",
+            "type": "HAS_SKILL",
+            "target": "skill_next_js",
+            "properties": {
+                "category": "frameworks"
+            }
+        },
+        {
+            "source": "person_aryan_sharma",
+            "type": "HAS_SKILL",
+            "target": "skill_react",
+            "properties": {
+                "category": "frameworks"
+            }
+        },
+        {
+            "source": "person_aryan_sharma",
+            "type": "HAS_SKILL",
+            "target": "skill_django",
+            "properties": {
+                "category": "frameworks"
+            }
+        },
+        {
+            "source": "person_aryan_sharma",
+            "type": "HAS_SKILL",
+            "target": "skill_flask",
+            "properties": {
+                "category": "frameworks"
+            }
+        },
+        {
+            "source": "person_aryan_sharma",
+            "type": "HAS_SKILL",
+            "target": "skill_fastapi",
+            "properties": {
+                "category": "frameworks"
+            }
+        },
+        {
+            "source": "person_aryan_sharma",
+            "type": "HAS_SKILL",
+            "target": "skill_tailwind_css",
+            "properties": {
+                "category": "frameworks"
+            }
+        },
+        {
+            "source": "person_aryan_sharma",
+            "type": "HAS_SKILL",
+            "target": "skill_sqlite",
+            "properties": {
+                "category": "databases"
+            }
+        },
+        {
+            "source": "person_aryan_sharma",
+            "type": "HAS_SKILL",
+            "target": "skill_git",
+            "properties": {
+                "category": "tools"
+            }
+        },
+        {
+            "source": "person_aryan_sharma",
+            "type": "HAS_SKILL",
+            "target": "skill_github",
+            "properties": {
+                "category": "tools"
+            }
+        },
+        {
+            "source": "person_aryan_sharma",
+            "type": "HAS_SKILL",
+            "target": "skill_vs_code",
+            "properties": {
+                "category": "tools"
+            }
+        },
+        {
+            "source": "person_aryan_sharma",
+            "type": "HAS_SKILL",
+            "target": "skill_firebase",
+            "properties": {
+                "category": "cloud"
+            }
+        },
+        {
+            "source": "person_aryan_sharma",
+            "type": "HAS_SKILL",
+            "target": "skill_vercel",
+            "properties": {
+                "category": "cloud"
+            }
+        },
+        {
+            "source": "person_aryan_sharma",
+            "type": "WORKED_ON",
+            "target": "project_ai_interview_preparation_platform"
+        },
+        {
+            "source": "project_ai_interview_preparation_platform",
+            "type": "USES_TECHNOLOGY",
+            "target": "technology_python"
+        },
+        {
+            "source": "person_aryan_sharma",
+            "type": "HAS_SKILL",
+            "target": "skill_python"
+        },
+        {
+            "source": "project_ai_interview_preparation_platform",
+            "type": "USES_TECHNOLOGY",
+            "target": "technology_react"
+        },
+        {
+            "source": "person_aryan_sharma",
+            "type": "HAS_SKILL",
+            "target": "skill_react"
+        },
+        {
+            "source": "project_ai_interview_preparation_platform",
+            "type": "USES_TECHNOLOGY",
+            "target": "technology_fastapi"
+        },
+        {
+            "source": "person_aryan_sharma",
+            "type": "HAS_SKILL",
+            "target": "skill_fastapi"
+        },
+        {
+            "source": "person_aryan_sharma",
+            "type": "WORKED_ON",
+            "target": "project_terramind_agri_intelligence_platform"
+        },
+        {
+            "source": "project_terramind_agri_intelligence_platform",
+            "type": "USES_TECHNOLOGY",
+            "target": "technology_python"
+        },
+        {
+            "source": "project_terramind_agri_intelligence_platform",
+            "type": "USES_TECHNOLOGY",
+            "target": "technology_django"
+        },
+        {
+            "source": "person_aryan_sharma",
+            "type": "HAS_SKILL",
+            "target": "skill_django"
+        },
+        {
+            "source": "person_aryan_sharma",
+            "type": "WORKED_ON",
+            "target": "project_crypto_trading_bot_simulated"
+        },
+        {
+            "source": "project_crypto_trading_bot_simulated",
+            "type": "USES_TECHNOLOGY",
+            "target": "technology_python"
+        },
+        {
+            "source": "person_aryan_sharma",
+            "type": "HAS_CERTIFICATION",
+            "target": "certification_nptel_java_programming_oop_participant_codeathon_techformers_1_0"
+        },
+        {
+            "source": "person_aryan_sharma",
+            "type": "HAS_CERTIFICATION",
+            "target": "certification_srm_hackathon_10_0_ranked_4th_out_of_200_teams_solved_100_questions_on_leetcode"
+        },
+        {
+            "source": "person_aryan_sharma",
+            "type": "HAS_CERTIFICATION",
+            "target": "certification_hackerrank_2_star_badge"
+        },
+        {
+            "source": "person_aryan_sharma",
+            "type": "COMPLETED_COURSE",
+            "target": "course_data_structures_and_algorithms"
+        },
+        {
+            "source": "person_aryan_sharma",
+            "type": "COMPLETED_COURSE",
+            "target": "course_database_management_systems"
+        },
+        {
+            "source": "person_aryan_sharma",
+            "type": "COMPLETED_COURSE",
+            "target": "course_object_oriented_programming"
+        },
+        {
+            "source": "person_aryan_sharma",
+            "type": "COMPLETED_COURSE",
+            "target": "course_big_data_technologies"
+        },
+        {
+            "source": "person_aryan_sharma",
+            "type": "COMPLETED_COURSE",
+            "target": "course_computer"
+        },
+        {
+            "source": "person_aryan_sharma",
+            "type": "COMPLETED_COURSE",
+            "target": "course_networks"
+        },
+        {
+            "source": "person_aryan_sharma",
+            "type": "COMPLETED_COURSE",
+            "target": "course_operating_systems"
+        },
+        {
+            "source": "person_jaisal_rathi",
+            "type": "HAS_EDUCATION",
+            "target": "education_unknown_institution_diploma_of_technology_computer_science_engineering"
+        },
+        {
+            "source": "education_unknown_institution_diploma_of_technology_computer_science_engineering",
+            "type": "HAS_DEGREE",
+            "target": "degree_diploma"
+        },
+        {
+            "source": "person_jaisal_rathi",
+            "type": "HAS_SKILL",
+            "target": "skill_python",
+            "properties": {
+                "category": "programming_languages"
+            }
+        },
+        {
+            "source": "person_jaisal_rathi",
+            "type": "HAS_SKILL",
+            "target": "skill_c",
+            "properties": {
+                "category": "programming_languages"
+            }
+        },
+        {
+            "source": "person_jaisal_rathi",
+            "type": "HAS_SKILL",
+            "target": "skill_git",
+            "properties": {
+                "category": "tools"
+            }
+        },
+        {
+            "source": "person_jaisal_rathi",
+            "type": "HAS_SKILL",
+            "target": "skill_communication",
+            "properties": {
+                "category": "soft_skills"
+            }
+        },
+        {
+            "source": "person_jaisal_rathi",
+            "type": "HAS_SKILL",
+            "target": "skill_leadership",
+            "properties": {
+                "category": "soft_skills"
+            }
+        },
+        {
+            "source": "person_jaisal_rathi",
+            "type": "HAS_SKILL",
+            "target": "skill_team_leadership",
+            "properties": {
+                "category": "soft_skills"
+            }
+        },
+        {
+            "source": "person_jaisal_rathi",
+            "type": "HAS_SKILL",
+            "target": "skill_problem_solving",
+            "properties": {
+                "category": "soft_skills"
+            }
+        },
+        {
+            "source": "person_jaisal_rathi",
+            "type": "WORKED_ON",
+            "target": "project_docsahab_emergency_medical_coordination_platform"
+        },
+        {
+            "source": "person_jaisal_rathi",
+            "type": "WORKED_ON",
+            "target": "project_optimized_the_emergency_response_golden_hour_workflow_across_patients_ambulances_and_hospitals"
+        },
+        {
+            "source": "person_jaisal_rathi",
+            "type": "WORKED_ON",
+            "target": "project_focused_on_data_reliability_and_operational_efficiency"
+        },
+        {
+            "source": "person_jaisal_rathi",
+            "type": "WORKED_ON",
+            "target": "project_aurora_ai_driven_game"
+        },
+        {
+            "source": "person_jaisal_rathi",
+            "type": "WORKED_ON",
+            "target": "project_rithms"
+        },
+        {
+            "source": "person_jaisal_rathi",
+            "type": "WORKED_ON",
+            "target": "project_optimized_gameplay_mechanics"
+        },
+        {
+            "source": "person_jaisal_rathi",
+            "type": "HAS_CERTIFICATION",
+            "target": "certification_object_oriented_programming_iit_roorkee"
+        },
+        {
+            "source": "person_jaisal_rathi",
+            "type": "HAS_CERTIFICATION",
+            "target": "certification_data_science_bootcamp_6_weeks_geeksforgeeks"
+        },
+        {
+            "source": "person_jaisal_rathi",
+            "type": "HAS_CERTIFICATION",
+            "target": "certification_financial_analysis_market_fundamentals_level_2"
+        },
+        {
+            "source": "person_jaisal_rathi",
+            "type": "HAS_CERTIFICATION",
+            "target": "certification_stock_analysis"
+        },
+        {
+            "source": "person_jaisal_rathi",
+            "type": "HAS_ACHIEVEMENT",
+            "target": "achievement_secured_a_top_10_position_in_a_hackathon_while_competing_individually_without_a_team"
+        },
+        {
+            "source": "person_jaisal_rathi",
+            "type": "HAS_ACHIEVEMENT",
+            "target": "achievement_former_member_mensa"
+        },
+        {
+            "source": "person_jaisal_rathi",
+            "type": "HAS_ACHIEVEMENT",
+            "target": "achievement_recognized_for_strong_debating_and_analytical_communication_skills_at_state_level_platforms"
+        },
+        {
+            "source": "person_jaisal_rathi",
+            "type": "SPEAKS",
+            "target": "language_hindi_fluent_english_fluent_spanish_elementary"
+        },
+        {
+            "source": "person_jaisal_rathi",
+            "type": "HAS_LEADERSHIP_EXPERIENCE",
+            "target": "leadershipexperience_team_member_hack_the_box_chennai_club"
+        },
+        {
+            "source": "person_jaisal_rathi",
+            "type": "HAS_LEADERSHIP_EXPERIENCE",
+            "target": "leadershipexperience_aug_2024_feb_2026"
+        },
+        {
+            "source": "person_jaisal_rathi",
+            "type": "HAS_LEADERSHIP_EXPERIENCE",
+            "target": "leadershipexperience_led_team_coordination_during_high_pressure_scenarios_achieving_maximum_participation_through_effective_commu"
+        },
+        {
+            "source": "person_jaisal_rathi",
+            "type": "HAS_LEADERSHIP_EXPERIENCE",
+            "target": "leadershipexperience_nication_and_planning"
+        },
+        {
+            "source": "person_lucy_harding",
+            "type": "HAS_EDUCATION",
+            "target": "education_westbrook_college"
+        },
+        {
+            "source": "person_lucy_harding",
+            "type": "STUDIED_AT",
+            "target": "institution_westbrook_college"
+        },
+        {
+            "source": "education_westbrook_college",
+            "type": "AT_INSTITUTION",
+            "target": "institution_westbrook_college"
+        },
+        {
+            "source": "person_lucy_harding",
+            "type": "HAS_SKILL",
+            "target": "skill_communication",
+            "properties": {
+                "category": "soft_skills"
+            }
+        },
+        {
+            "source": "person_lucy_harding",
+            "type": "HAS_SKILL",
+            "target": "skill_teamwork",
+            "properties": {
+                "category": "soft_skills"
+            }
+        },
+        {
+            "source": "person_lucy_harding",
+            "type": "COMPLETED_TRAINING",
+            "target": "training_customer_communication_course"
+        },
+        {
+            "source": "person_lucy_harding",
+            "type": "COMPLETED_TRAINING",
+            "target": "training_workplace_safety_training"
+        },
+        {
+            "source": "person_lucy_harding",
+            "type": "COMPLETED_TRAINING",
+            "target": "training_conflict_resolution_awareness"
+        },
+        {
+            "source": "person_lucy_harding",
+            "type": "COMPLETED_TRAINING",
+            "target": "training_references_available_upon_request"
+        },
+        {
+            "source": "person_varad_singhal",
+            "type": "HAS_EDUCATION",
+            "target": "education_srm_institute_of_science_and_technology_b_tech_honors_in_financial_technology"
+        },
+        {
+            "source": "person_varad_singhal",
+            "type": "STUDIED_AT",
+            "target": "institution_srm_institute_of_science_and_technology"
+        },
+        {
+            "source": "education_srm_institute_of_science_and_technology_b_tech_honors_in_financial_technology",
+            "type": "AT_INSTITUTION",
+            "target": "institution_srm_institute_of_science_and_technology"
+        },
+        {
+            "source": "education_srm_institute_of_science_and_technology_b_tech_honors_in_financial_technology",
+            "type": "HAS_DEGREE",
+            "target": "degree_b_tech"
+        },
+        {
+            "source": "person_varad_singhal",
+            "type": "WORKED_ON",
+            "target": "project_sephela_enterprise_platform_for_genai_based_automated_analysis_and_risk_scoring_of_fraudulent_android_apks"
+        },
+        {
+            "source": "person_varad_singhal",
+            "type": "WORKED_ON",
+            "target": "project_built_for_banking_cybersecurity_teams"
+        },
+        {
+            "source": "person_varad_singhal",
+            "type": "WORKED_ON",
+            "target": "project_busmitra_real_time_bus_tracking_system_combining_a"
+        },
+        {
+            "source": "project_busmitra_real_time_bus_tracking_system_combining_a",
+            "type": "USES_TECHNOLOGY",
+            "target": "technology_flutter"
+        },
+        {
+            "source": "person_varad_singhal",
+            "type": "HAS_SKILL",
+            "target": "skill_flutter"
+        },
+        {
+            "source": "person_varad_singhal",
+            "type": "WORKED_ON",
+            "target": "project_share_live_bus_locations_and_predict_arrival_times_improving_public_transport_reliability_and_fleet_monitoring_for"
+        },
+        {
+            "source": "person_varad_singhal",
+            "type": "WORKED_ON",
+            "target": "project_authorities_try_it_out"
+        },
+        {
+            "source": "person_varad_singhal",
+            "type": "WORKED_ON",
+            "target": "project_gigkavach_built_an_ai_powered_mobile_platform_delivering_parametric_income_insurance_and_earnings_intelligence"
+        },
+        {
+            "source": "person_varad_singhal",
+            "type": "WORKED_ON",
+            "target": "project_for_food_delivery_gig_workers_auto_triggering_disruption_payouts_rain_aqi_flooding_via_real_time_api_monitoring"
+        },
+        {
+            "source": "person_varad_singhal",
+            "type": "WORKED_ON",
+            "target": "project_with_zero_manual_claims_filing_try_it_out"
+        },
+        {
+            "source": "person_varad_singhal",
+            "type": "WORKED_ON",
+            "target": "project_achievements_and_campus_involvement"
+        },
+        {
+            "source": "person_varad_singhal",
+            "type": "WORKED_ON",
+            "target": "project_first_place_innofusion_26_hackathon_organized_by_the_dsbs_department"
+        },
+        {
+            "source": "person_varad_singhal",
+            "type": "WORKED_ON",
+            "target": "project_first_place_pokeverse_ideathon_organized_by_srm_acm_sigkdd"
+        },
+        {
+            "source": "person_varad_singhal",
+            "type": "WORKED_ON",
+            "target": "project_ibm_android_and_ios_application_developer_certification"
+        },
+        {
+            "source": "person_varad_singhal",
+            "type": "WORKED_ON",
+            "target": "project_salesforce_certified_agentforce_specialist"
+        },
+        {
+            "source": "person_varad_singhal",
+            "type": "WORKED_ON",
+            "target": "project_oracle_agentic_ai_certified_foundations_associate"
+        },
+        {
+            "source": "project_oracle_agentic_ai_certified_foundations_associate",
+            "type": "USES_TECHNOLOGY",
+            "target": "technology_oracle"
+        },
+        {
+            "source": "person_varad_singhal",
+            "type": "HAS_SKILL",
+            "target": "skill_oracle"
+        },
+        {
+            "source": "person_varad_singhal",
+            "type": "WORKED_ON",
+            "target": "project_technical_team_member_google_developer_groups_qwiklab_developer_club_microsoft_student_ambassador"
+        },
+        {
+            "source": "person_varad_singhal",
+            "type": "WORKED_ON",
+            "target": "project_coding_ninjas_10x"
+        },
+        {
+            "source": "person_varad_singhal",
+            "type": "SPEAKS",
+            "target": "language_java_dart_python_c_c_sql"
+        },
+        {
+            "source": "person_varad_singhal",
+            "type": "SPEAKS",
+            "target": "language_cloud_devops"
+        },
+        {
+            "source": "person_varad_singhal",
+            "type": "SPEAKS",
+            "target": "language_aws_lambda_rds_s3_ssm_amazon_bedrock_titan_v2_git"
+        },
+        {
+            "source": "person_varad_singhal",
+            "type": "SPEAKS",
+            "target": "language_frameworks_tools"
+        },
+        {
+            "source": "person_varad_singhal",
+            "type": "SPEAKS",
+            "target": "language_flutter_react_node_js_firebase_rest_apis"
+        },
+        {
+            "source": "person_varad_singhal",
+            "type": "SPEAKS",
+            "target": "language_iot_technologies"
+        },
+        {
+            "source": "person_varad_singhal",
+            "type": "SPEAKS",
+            "target": "language_esp32_arduino_sensors_mqtt_embedded_systems"
+        },
+        {
+            "source": "person_varad_singhal",
+            "type": "SPEAKS",
+            "target": "language_soft_skills"
+        },
+        {
+            "source": "person_varad_singhal",
+            "type": "SPEAKS",
+            "target": "language_problem_solving_team_collaboration_communication_time_management"
+        },
+        {
+            "source": "person_jacob_j_jacoby",
+            "type": "HAS_CERTIFICATION",
+            "target": "certification_washington_registered_plumbing_apprentice_id_number_ocalljr941mp"
+        },
+        {
+            "source": "person_jacob_j_jacoby",
+            "type": "HAS_CERTIFICATION",
+            "target": "certification_idaho_registered_plumbing_apprentice_id_number_5101"
+        },
+        {
+            "source": "person_jacob_j_jacoby",
+            "type": "HAS_CERTIFICATION",
+            "target": "certification_cpr_certified"
+        },
+        {
+            "source": "person_jacob_j_jacoby",
+            "type": "MEMBER_OF",
+            "target": "organization_"
+        },
+        {
+            "source": "person_jacob_j_jacoby",
+            "type": "MEMBER_OF",
+            "target": "organization_member_helmets_to_hard_hats_2008_present"
+        },
+        {
+            "source": "person_jacob_j_jacoby",
+            "type": "MEMBER_OF",
+            "target": "organization_resume_contributed_for_sample_purposes_only"
+        },
+        {
+            "source": "person_jacob_j_jacoby",
+            "type": "MEMBER_OF",
+            "target": "organization_written_by_frontrunneronline_com"
+        },
+        {
+            "source": "person_jacob_j_jacoby",
+            "type": "MEMBER_OF",
+            "target": "organization_jacob_j_jacoby"
+        },
+        {
+            "source": "person_jacob_j_jacoby",
+            "type": "MEMBER_OF",
+            "target": "organization_resume_page_two"
+        },
+        {
+            "source": "person_jacob_j_jacoby",
+            "type": "HAS_MILITARY_EXPERIENCE",
+            "target": "militaryexperience_united_states_army"
+        },
+        {
+            "source": "person_jacob_j_jacoby",
+            "type": "HAS_MILITARY_EXPERIENCE",
+            "target": "militaryexperience_mar_1998_mar_2002"
+        },
+        {
+            "source": "person_jacob_j_jacoby",
+            "type": "HAS_MILITARY_EXPERIENCE",
+            "target": "militaryexperience_honorable_discharge_rank_of_sergeant_e_5"
+        },
+        {
+            "source": "person_jacob_j_jacoby",
+            "type": "HAS_MILITARY_EXPERIENCE",
+            "target": "militaryexperience_primary_leadership_development_course"
+        },
+        {
+            "source": "person_jacob_j_jacoby",
+            "type": "HAS_MILITARY_EXPERIENCE",
+            "target": "militaryexperience_graduated_april_2000"
+        },
+        {
+            "source": "person_jacob_j_jacoby",
+            "type": "HAS_MILITARY_EXPERIENCE",
+            "target": "militaryexperience_combat_communications_course"
+        },
+        {
+            "source": "person_jacob_j_jacoby",
+            "type": "HAS_MILITARY_EXPERIENCE",
+            "target": "militaryexperience_completed_june_1999"
+        },
+        {
+            "source": "person_jacob_j_jacoby",
+            "type": "HAS_MILITARY_EXPERIENCE",
+            "target": "militaryexperience_combat_lifesaver_course_re_up_certification_every_year"
+        },
+        {
+            "source": "person_jacob_j_jacoby",
+            "type": "HAS_MILITARY_EXPERIENCE",
+            "target": "militaryexperience_completed_may_1999"
+        },
+        {
+            "source": "person_jacob_j_jacoby",
+            "type": "HAS_MILITARY_EXPERIENCE",
+            "target": "militaryexperience_air_assault_school_ft_campbell_kentucky"
+        },
+        {
+            "source": "person_jacob_j_jacoby",
+            "type": "HAS_MILITARY_EXPERIENCE",
+            "target": "militaryexperience_graduated_sept_1998"
+        },
+        {
+            "source": "person_jacob_j_jacoby",
+            "type": "HAS_MILITARY_EXPERIENCE",
+            "target": "militaryexperience_united_states_infantry_training_brigade"
+        },
+        {
+            "source": "person_jacob_j_jacoby",
+            "type": "HAS_MILITARY_EXPERIENCE",
+            "target": "militaryexperience_completed_june_1998"
+        },
+        {
+            "source": "person_jacob_j_jacoby",
+            "type": "HAS_MILITARY_EXPERIENCE",
+            "target": "militaryexperience_achievements_include"
+        },
+        {
+            "source": "person_jacob_j_jacoby",
+            "type": "HAS_MILITARY_EXPERIENCE",
+            "target": "militaryexperience_"
+        },
+        {
+            "source": "person_jacob_j_jacoby",
+            "type": "HAS_MILITARY_EXPERIENCE",
+            "target": "militaryexperience_army_commendation_medal_2_time_recipient"
+        },
+        {
+            "source": "person_jacob_j_jacoby",
+            "type": "HAS_MILITARY_EXPERIENCE",
+            "target": "militaryexperience_army_achievement_medal_2_time_recipient"
+        },
+        {
+            "source": "person_jacob_j_jacoby",
+            "type": "HAS_MILITARY_EXPERIENCE",
+            "target": "militaryexperience_promoted_from_a_private_e_1_to_a_sergeant_e_5"
+        },
+        {
+            "source": "person_jacob_j_jacoby",
+            "type": "HAS_MILITARY_EXPERIENCE",
+            "target": "militaryexperience_elevated_to_team_leader_corporal_squad_leader_and_training_room_nco"
+        },
+        {
+            "source": "person_jacob_j_jacoby",
+            "type": "HAS_MILITARY_EXPERIENCE",
+            "target": "militaryexperience_received_nato_medal_and_kosovo_campaign_ribbon"
+        },
+        {
+            "source": "person_jacob_j_jacoby",
+            "type": "HAS_MILITARY_EXPERIENCE",
+            "target": "militaryexperience_time_served_in_pakistan_afghanistan_south_east_asia_for_operation_enduring_freedom"
+        },
+        {
+            "source": "person_jacob_j_jacoby",
+            "type": "HAS_MILITARY_EXPERIENCE",
+            "target": "militaryexperience_expert_infantryman_s_badge"
+        },
+        {
+            "source": "person_vince_d_conlan",
+            "type": "HAS_EDUCATION",
+            "target": "education_b_s_in_professional_aeronautics_embry_riddle_aeronautical_university_fort_worth_tx_b_s_in_professional_aeronautics_embry_riddle_aeronautical_university_fort_worth_tx"
+        },
+        {
+            "source": "person_vince_d_conlan",
+            "type": "STUDIED_AT",
+            "target": "institution_b_s_in_professional_aeronautics_embry_riddle_aeronautical_university_fort_worth_tx"
+        },
+        {
+            "source": "education_b_s_in_professional_aeronautics_embry_riddle_aeronautical_university_fort_worth_tx_b_s_in_professional_aeronautics_embry_riddle_aeronautical_university_fort_worth_tx",
+            "type": "AT_INSTITUTION",
+            "target": "institution_b_s_in_professional_aeronautics_embry_riddle_aeronautical_university_fort_worth_tx"
+        },
+        {
+            "source": "education_b_s_in_professional_aeronautics_embry_riddle_aeronautical_university_fort_worth_tx_b_s_in_professional_aeronautics_embry_riddle_aeronautical_university_fort_worth_tx",
+            "type": "HAS_DEGREE",
+            "target": "degree_b_s"
+        },
+        {
+            "source": "person_vince_d_conlan",
+            "type": "HAS_EXPERIENCE",
+            "target": "experience_manager_airframes_intermediate_maintenance_fleet_readiness_center_fort_worth_tx_2006"
+        },
+        {
+            "source": "person_vince_d_conlan",
+            "type": "WORKED_AT",
+            "target": "company_manager_airframes_intermediate_maintenance_fleet_readiness_center_fort_worth_tx_2006"
+        },
+        {
+            "source": "experience_manager_airframes_intermediate_maintenance_fleet_readiness_center_fort_worth_tx_2006",
+            "type": "AT_COMPANY",
+            "target": "company_manager_airframes_intermediate_maintenance_fleet_readiness_center_fort_worth_tx_2006"
+        },
+        {
+            "source": "person_vince_d_conlan",
+            "type": "HAS_EXPERIENCE",
+            "target": "experience_director_of_aircraft_maintenance_fort_worth_tx_2000"
+        },
+        {
+            "source": "person_vince_d_conlan",
+            "type": "WORKED_AT",
+            "target": "company_director_of_aircraft_maintenance_fort_worth_tx_2000"
+        },
+        {
+            "source": "experience_director_of_aircraft_maintenance_fort_worth_tx_2000",
+            "type": "AT_COMPANY",
+            "target": "company_director_of_aircraft_maintenance_fort_worth_tx_2000"
+        },
+        {
+            "source": "person_vince_d_conlan",
+            "type": "HAS_EXPERIENCE",
+            "target": "experience_airframes_work_center_supervisor_lemoore_ca_1995"
+        },
+        {
+            "source": "person_vince_d_conlan",
+            "type": "WORKED_AT",
+            "target": "company_airframes_work_center_supervisor_lemoore_ca_1995"
+        },
+        {
+            "source": "experience_airframes_work_center_supervisor_lemoore_ca_1995",
+            "type": "AT_COMPANY",
+            "target": "company_airframes_work_center_supervisor_lemoore_ca_1995"
+        },
+        {
+            "source": "person_richard_a_levinson",
+            "type": "HAS_EDUCATION",
+            "target": "education_unknown_institution_bachelor_of_science_in_health_administration"
+        },
+        {
+            "source": "education_unknown_institution_bachelor_of_science_in_health_administration",
+            "type": "HAS_DEGREE",
+            "target": "degree_bachelor"
+        },
+        {
+            "source": "person_richard_a_levinson",
+            "type": "HAS_EXPERIENCE",
+            "target": "experience_unknown_company"
+        },
+        {
+            "source": "person_richard_a_levinson",
+            "type": "HAS_SKILL",
+            "target": "skill_teamwork",
+            "properties": {
+                "category": "soft_skills"
+            }
+        },
+        {
+            "source": "person_richard_a_levinson",
+            "type": "HAS_CERTIFICATION",
+            "target": "certification_lean_six_sigma_green_belt_certified_advanced_critical_incident_stress_management_instructor_certified_in"
+        },
+        {
+            "source": "person_richard_a_levinson",
+            "type": "HAS_CERTIFICATION",
+            "target": "certification_myers_briggs_type_indicator_mbti"
+        },
+        {
+            "source": "person_richard_a_levinson",
+            "type": "HAS_ACHIEVEMENT",
+            "target": "achievement_joint_commendation_medal_for_coordination_of_relief_efforts_in_tsunami_regions_of_thailand_2005"
+        },
+        {
+            "source": "person_richard_a_levinson",
+            "type": "HAS_ACHIEVEMENT",
+            "target": "achievement_commendation_medal_for_successful_coordination_and_delivery_of_1_000_tons_of_relief_to_iraq"
+        },
+        {
+            "source": "person_richard_a_levinson",
+            "type": "HAS_ACHIEVEMENT",
+            "target": "achievement_numerous_additional_awards_for_performance_effort_and_dedication_across_multiple_programs"
+        },
+        {
+            "source": "person_richard_a_levinson",
+            "type": "HAS_ACHIEVEMENT",
+            "target": "achievement_resume_contributed_for_sample_purposes_only"
+        },
+        {
+            "source": "person_richard_a_levinson",
+            "type": "HAS_ACHIEVEMENT",
+            "target": "achievement_written_by_aresumewizard_com"
+        },
+        {
+            "source": "person_david_h_anders",
+            "type": "HAS_EDUCATION",
+            "target": "education_unknown_institution_bachelor_of_science_in_professional_aeronautics_minor_in_management"
+        },
+        {
+            "source": "education_unknown_institution_bachelor_of_science_in_professional_aeronautics_minor_in_management",
+            "type": "HAS_DEGREE",
+            "target": "degree_bachelor"
+        },
+        {
+            "source": "person_david_h_anders",
+            "type": "HAS_EXPERIENCE",
+            "target": "experience_unknown_company"
+        },
+        {
+            "source": "person_david_h_anders",
+            "type": "HAS_SKILL",
+            "target": "skill_leadership",
+            "properties": {
+                "category": "soft_skills"
+            }
+        },
+        {
+            "source": "person_george_redmond",
+            "type": "HAS_EDUCATION",
+            "target": "education_unknown_institution_me_of_science_in_business_administration"
+        },
+        {
+            "source": "education_unknown_institution_me_of_science_in_business_administration",
+            "type": "HAS_DEGREE",
+            "target": "degree_me"
+        },
+        {
+            "source": "person_george_redmond",
+            "type": "HAS_SKILL",
+            "target": "skill_leadership",
+            "properties": {
+                "category": "soft_skills"
+            }
+        },
+        {
+            "source": "person_george_redmond",
+            "type": "HAS_SKILL",
+            "target": "skill_team_leadership",
+            "properties": {
+                "category": "soft_skills"
+            }
+        },
+        {
+            "source": "person_george_redmond",
+            "type": "COMPLETED_TRAINING",
+            "target": "training_professional_selling_skills_prospecting_tools_and_techniques"
+        },
+        {
+            "source": "person_george_redmond",
+            "type": "COMPLETED_TRAINING",
+            "target": "training_essentials_of_communicating_with_diplomacy_and_professionalism"
+        },
+        {
+            "source": "person_george_redmond",
+            "type": "COMPLETED_TRAINING",
+            "target": "training_the_upside_of_upselling_how_to_attract_new_customers"
+        },
+        {
+            "source": "person_george_redmond",
+            "type": "COMPLETED_TRAINING",
+            "target": "training_market_for_success_how_to_compete_against_the_big_box_stores"
+        }
+    ]
+}

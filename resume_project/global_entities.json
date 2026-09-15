@@ -1,0 +1,1081 @@
+{
+    "entity_model": {
+        "description": "Global entities extracted from resume Blueprint JSONs.",
+        "entity_types": [
+            "persons",
+            "companies",
+            "institutions",
+            "skills",
+            "technologies",
+            "job_roles",
+            "projects",
+            "degrees",
+            "certifications",
+            "languages",
+            "organizations",
+            "locations"
+        ]
+    },
+    "entities": {
+        "persons": [
+            {
+                "id": "person_1",
+                "name": "Jennifer Hall",
+                "source_resumes": [
+                    "00121-information-systems-resume-example"
+                ],
+                "properties": {
+                    "email": "jhall@rremail.com",
+                    "phone": "555) 133-1333"
+                }
+            },
+            {
+                "id": "person_2",
+                "name": "ARYAN SHARMA",
+                "source_resumes": [
+                    "314838a0-7f55-49e2-8bbd-773b30b6c47b"
+                ],
+                "properties": {
+                    "email": "shrmaaryan.77@gmail.com",
+                    "phone": "7644004689",
+                    "linkedin": "linkedin.com/in/aryan-sharma-a02111402",
+                    "github": "github.com/aryansh9090"
+                }
+            },
+            {
+                "id": "person_3",
+                "name": "JAISAL RATHI",
+                "source_resumes": [
+                    "7b0d7cf8-3a47-48aa-aa89-0562797dccec"
+                ],
+                "properties": {
+                    "email": "jaisairathi@gmail.com",
+                    "phone": "+91 82229 69798",
+                    "linkedin": "linkedin.com/in/jaisal-rathi-a69485413",
+                    "github": "github.com/Jaisalrathi1829"
+                }
+            },
+            {
+                "id": "person_4",
+                "name": "Lucy Harding",
+                "source_resumes": [
+                    "Black and White Modern Photo Resume"
+                ],
+                "properties": {
+                    "email": "hello@reallygreatsite.com",
+                    "phone": "123-456-7890"
+                }
+            },
+            {
+                "id": "person_5",
+                "name": "Varad Singhal",
+                "source_resumes": [
+                    "eaa71340-3b97-4e2d-88de-f0bf1304468c"
+                ],
+                "properties": {
+                    "email": "varadsinghal1526@gmail.com",
+                    "phone": "+91-7805841826",
+                    "linkedin": "linkedin.com/in/varad-singhal-ba1361326"
+                }
+            },
+            {
+                "id": "person_6",
+                "name": "JACOB J. JACOBY",
+                "source_resumes": [
+                    "exbc17"
+                ],
+                "properties": {
+                    "email": "jjjacoby@roadrunner.com",
+                    "phone": "123) 456-7890"
+                }
+            },
+            {
+                "id": "person_7",
+                "name": "VINCE D. CONLAN",
+                "source_resumes": [
+                    "exmil1"
+                ],
+                "properties": {
+                    "email": "vconlan@yahoo.com",
+                    "phone": "817) 466-0015"
+                }
+            },
+            {
+                "id": "person_8",
+                "name": "RICHARD A. LEVINSON",
+                "source_resumes": [
+                    "exmil2"
+                ],
+                "properties": {
+                    "email": "rlevinson@yahoo.com",
+                    "phone": "817-466-0015"
+                }
+            },
+            {
+                "id": "person_9",
+                "name": "DAVID H. ANDERS",
+                "source_resumes": [
+                    "exmil3"
+                ],
+                "properties": {
+                    "email": "danders@yahoo.com",
+                    "phone": "817) 466-0015"
+                }
+            },
+            {
+                "id": "person_10",
+                "name": "GEORGE REDMOND",
+                "source_resumes": [
+                    "exsa22"
+                ],
+                "properties": {
+                    "email": "g.redmond@email.com",
+                    "phone": "207-555-1212"
+                }
+            },
+            {
+                "id": "person_11",
+                "name": "Resume for Sample Purposes Only",
+                "source_resumes": [
+                    "extea1"
+                ],
+                "properties": {}
+            }
+        ],
+        "companies": [
+            {
+                "id": "companie_1",
+                "name": "Accemberg Technologies Pvt. Ltd",
+                "source_resumes": [
+                    "314838a0-7f55-49e2-8bbd-773b30b6c47b"
+                ],
+                "properties": {}
+            },
+            {
+                "id": "companie_2",
+                "name": "Jharkhand Education Project Council (JEPC)",
+                "source_resumes": [
+                    "314838a0-7f55-49e2-8bbd-773b30b6c47b"
+                ],
+                "properties": {}
+            },
+            {
+                "id": "companie_3",
+                "name": "Manager, Airframes Intermediate Maintenance, Fleet Readiness Center, Fort Worth, TX (2006",
+                "source_resumes": [
+                    "exmil1"
+                ],
+                "properties": {}
+            },
+            {
+                "id": "companie_4",
+                "name": "Director of Aircraft Maintenance, Fort Worth, TX (2000",
+                "source_resumes": [
+                    "exmil1"
+                ],
+                "properties": {}
+            },
+            {
+                "id": "companie_5",
+                "name": "Airframes Work Center Supervisor, Lemoore, CA (1995",
+                "source_resumes": [
+                    "exmil1"
+                ],
+                "properties": {}
+            }
+        ],
+        "institutions": [
+            {
+                "id": "institution_1",
+                "name": "SRM Institute of Science and Technology Chennai, India (2024-2028)",
+                "source_resumes": [
+                    "314838a0-7f55-49e2-8bbd-773b30b6c47b"
+                ],
+                "properties": {}
+            },
+            {
+                "id": "institution_2",
+                "name": "Westbrook College",
+                "source_resumes": [
+                    "Black and White Modern Photo Resume"
+                ],
+                "properties": {}
+            },
+            {
+                "id": "institution_3",
+                "name": "SRM Institute of Science and Technology",
+                "source_resumes": [
+                    "eaa71340-3b97-4e2d-88de-f0bf1304468c"
+                ],
+                "properties": {}
+            },
+            {
+                "id": "institution_4",
+                "name": "B.S. in Professional Aeronautics: EMBRY-RIDDLE AERONAUTICAL UNIVERSITY, Fort Worth, TX",
+                "source_resumes": [
+                    "exmil1"
+                ],
+                "properties": {}
+            }
+        ],
+        "skills": [
+            {
+                "id": "skill_1",
+                "name": "Python",
+                "source_resumes": [
+                    "314838a0-7f55-49e2-8bbd-773b30b6c47b",
+                    "7b0d7cf8-3a47-48aa-aa89-0562797dccec"
+                ],
+                "properties": {
+                    "category": "programming_languages"
+                }
+            },
+            {
+                "id": "skill_2",
+                "name": "Java",
+                "source_resumes": [
+                    "314838a0-7f55-49e2-8bbd-773b30b6c47b"
+                ],
+                "properties": {
+                    "category": "programming_languages"
+                }
+            },
+            {
+                "id": "skill_3",
+                "name": "JavaScript",
+                "source_resumes": [
+                    "314838a0-7f55-49e2-8bbd-773b30b6c47b"
+                ],
+                "properties": {
+                    "category": "programming_languages"
+                }
+            },
+            {
+                "id": "skill_4",
+                "name": "C++",
+                "source_resumes": [
+                    "314838a0-7f55-49e2-8bbd-773b30b6c47b",
+                    "7b0d7cf8-3a47-48aa-aa89-0562797dccec"
+                ],
+                "properties": {
+                    "category": "programming_languages"
+                }
+            },
+            {
+                "id": "skill_5",
+                "name": "C",
+                "source_resumes": [
+                    "314838a0-7f55-49e2-8bbd-773b30b6c47b",
+                    "7b0d7cf8-3a47-48aa-aa89-0562797dccec"
+                ],
+                "properties": {
+                    "category": "programming_languages"
+                }
+            },
+            {
+                "id": "skill_6",
+                "name": "SQL",
+                "source_resumes": [
+                    "314838a0-7f55-49e2-8bbd-773b30b6c47b"
+                ],
+                "properties": {
+                    "category": "programming_languages"
+                }
+            },
+            {
+                "id": "skill_7",
+                "name": "Next.js",
+                "source_resumes": [
+                    "314838a0-7f55-49e2-8bbd-773b30b6c47b"
+                ],
+                "properties": {
+                    "category": "frameworks"
+                }
+            },
+            {
+                "id": "skill_8",
+                "name": "React",
+                "source_resumes": [
+                    "314838a0-7f55-49e2-8bbd-773b30b6c47b"
+                ],
+                "properties": {
+                    "category": "frameworks"
+                }
+            },
+            {
+                "id": "skill_9",
+                "name": "Django",
+                "source_resumes": [
+                    "314838a0-7f55-49e2-8bbd-773b30b6c47b"
+                ],
+                "properties": {
+                    "category": "frameworks"
+                }
+            },
+            {
+                "id": "skill_10",
+                "name": "Flask",
+                "source_resumes": [
+                    "314838a0-7f55-49e2-8bbd-773b30b6c47b"
+                ],
+                "properties": {
+                    "category": "frameworks"
+                }
+            },
+            {
+                "id": "skill_11",
+                "name": "FastAPI",
+                "source_resumes": [
+                    "314838a0-7f55-49e2-8bbd-773b30b6c47b"
+                ],
+                "properties": {
+                    "category": "frameworks"
+                }
+            },
+            {
+                "id": "skill_12",
+                "name": "Tailwind CSS",
+                "source_resumes": [
+                    "314838a0-7f55-49e2-8bbd-773b30b6c47b"
+                ],
+                "properties": {
+                    "category": "frameworks"
+                }
+            },
+            {
+                "id": "skill_13",
+                "name": "SQLite",
+                "source_resumes": [
+                    "314838a0-7f55-49e2-8bbd-773b30b6c47b"
+                ],
+                "properties": {
+                    "category": "databases"
+                }
+            },
+            {
+                "id": "skill_14",
+                "name": "Git",
+                "source_resumes": [
+                    "314838a0-7f55-49e2-8bbd-773b30b6c47b",
+                    "7b0d7cf8-3a47-48aa-aa89-0562797dccec"
+                ],
+                "properties": {
+                    "category": "tools"
+                }
+            },
+            {
+                "id": "skill_15",
+                "name": "GitHub",
+                "source_resumes": [
+                    "314838a0-7f55-49e2-8bbd-773b30b6c47b"
+                ],
+                "properties": {
+                    "category": "tools"
+                }
+            },
+            {
+                "id": "skill_16",
+                "name": "VS Code",
+                "source_resumes": [
+                    "314838a0-7f55-49e2-8bbd-773b30b6c47b"
+                ],
+                "properties": {
+                    "category": "tools"
+                }
+            },
+            {
+                "id": "skill_17",
+                "name": "Firebase",
+                "source_resumes": [
+                    "314838a0-7f55-49e2-8bbd-773b30b6c47b"
+                ],
+                "properties": {
+                    "category": "cloud"
+                }
+            },
+            {
+                "id": "skill_18",
+                "name": "Vercel",
+                "source_resumes": [
+                    "314838a0-7f55-49e2-8bbd-773b30b6c47b"
+                ],
+                "properties": {
+                    "category": "cloud"
+                }
+            },
+            {
+                "id": "skill_19",
+                "name": "Communication",
+                "source_resumes": [
+                    "7b0d7cf8-3a47-48aa-aa89-0562797dccec",
+                    "Black and White Modern Photo Resume"
+                ],
+                "properties": {
+                    "category": "soft_skills"
+                }
+            },
+            {
+                "id": "skill_20",
+                "name": "Leadership",
+                "source_resumes": [
+                    "7b0d7cf8-3a47-48aa-aa89-0562797dccec",
+                    "exmil3",
+                    "exsa22"
+                ],
+                "properties": {
+                    "category": "soft_skills"
+                }
+            },
+            {
+                "id": "skill_21",
+                "name": "Team Leadership",
+                "source_resumes": [
+                    "7b0d7cf8-3a47-48aa-aa89-0562797dccec",
+                    "exsa22"
+                ],
+                "properties": {
+                    "category": "soft_skills"
+                }
+            },
+            {
+                "id": "skill_22",
+                "name": "Problem Solving",
+                "source_resumes": [
+                    "7b0d7cf8-3a47-48aa-aa89-0562797dccec"
+                ],
+                "properties": {
+                    "category": "soft_skills"
+                }
+            },
+            {
+                "id": "skill_23",
+                "name": "Teamwork",
+                "source_resumes": [
+                    "Black and White Modern Photo Resume",
+                    "exmil2"
+                ],
+                "properties": {
+                    "category": "soft_skills"
+                }
+            }
+        ],
+        "technologies": [
+            {
+                "id": "technologie_1",
+                "name": "Python",
+                "source_resumes": [
+                    "314838a0-7f55-49e2-8bbd-773b30b6c47b"
+                ],
+                "properties": {}
+            },
+            {
+                "id": "technologie_2",
+                "name": "React",
+                "source_resumes": [
+                    "314838a0-7f55-49e2-8bbd-773b30b6c47b"
+                ],
+                "properties": {}
+            },
+            {
+                "id": "technologie_3",
+                "name": "FastAPI",
+                "source_resumes": [
+                    "314838a0-7f55-49e2-8bbd-773b30b6c47b"
+                ],
+                "properties": {}
+            },
+            {
+                "id": "technologie_4",
+                "name": "Django",
+                "source_resumes": [
+                    "314838a0-7f55-49e2-8bbd-773b30b6c47b"
+                ],
+                "properties": {}
+            },
+            {
+                "id": "technologie_5",
+                "name": "Flutter",
+                "source_resumes": [
+                    "eaa71340-3b97-4e2d-88de-f0bf1304468c"
+                ],
+                "properties": {}
+            },
+            {
+                "id": "technologie_6",
+                "name": "Oracle",
+                "source_resumes": [
+                    "eaa71340-3b97-4e2d-88de-f0bf1304468c"
+                ],
+                "properties": {}
+            }
+        ],
+        "job_roles": [
+            {
+                "id": "job_role_1",
+                "name": "Backend Development Intern",
+                "source_resumes": [
+                    "314838a0-7f55-49e2-8bbd-773b30b6c47b"
+                ],
+                "properties": {}
+            },
+            {
+                "id": "job_role_2",
+                "name": "Intern",
+                "source_resumes": [
+                    "314838a0-7f55-49e2-8bbd-773b30b6c47b"
+                ],
+                "properties": {}
+            }
+        ],
+        "projects": [
+            {
+                "id": "project_1",
+                "name": "AI Interview Preparation Platform",
+                "source_resumes": [
+                    "314838a0-7f55-49e2-8bbd-773b30b6c47b"
+                ],
+                "properties": {
+                    "description": [
+                        "Designed and developed backend APIs using FastAPI to process user data and generate personalized interview questions.",
+                        "Built automated data ingestion and processing pipelines for resume parsing and dynamic question generation.",
+                        "Implemented real-time evaluation and scoring system using structured data storage and retrieval.",
+                        "Integrated NLP models to analyze user responses and improve feedback accuracy."
+                    ]
+                }
+            },
+            {
+                "id": "project_2",
+                "name": "TerraMind – Agri Intelligence Platform",
+                "source_resumes": [
+                    "314838a0-7f55-49e2-8bbd-773b30b6c47b"
+                ],
+                "properties": {
+                    "description": [
+                        "Built an ELT pipeline to ingest and transform satellite NDVI datasets for crop health monitoring.",
+                        "Processed and analyzed agricultural datasets to generate irrigation and soil recommendations.",
+                        "Designed dashboards to visualize processed data and provide actionable insights."
+                    ]
+                }
+            },
+            {
+                "id": "project_3",
+                "name": "Crypto Trading Bot (Simulated)",
+                "source_resumes": [
+                    "314838a0-7f55-49e2-8bbd-773b30b6c47b"
+                ],
+                "properties": {
+                    "description": [
+                        "Built a real-time data ingestion pipeline fetching live cryptocurrency price data via external REST APIs.",
+                        "Engineered a continuous ETL pipeline for data transformation and decision-making (BUY/HOLD logic).",
+                        "Designed modular, scalable code architecture for future integration with real trading systems."
+                    ]
+                }
+            },
+            {
+                "id": "project_4",
+                "name": "Docsahab — Emergency Medical Coordination Platform",
+                "source_resumes": [
+                    "7b0d7cf8-3a47-48aa-aa89-0562797dccec"
+                ],
+                "properties": {
+                    "description": [
+                        "Designed a real-time emergency coordination platform for hospitals, ambulances, and healthcare resources."
+                    ]
+                }
+            },
+            {
+                "id": "project_5",
+                "name": "Optimized the emergency response (“golden hour”) workflow across patients, ambulances, and hospitals",
+                "source_resumes": [
+                    "7b0d7cf8-3a47-48aa-aa89-0562797dccec"
+                ],
+                "properties": {
+                    "description": [
+                        "Designed a scalable backend architecture with a multi-state emergency lifecycle"
+                    ]
+                }
+            },
+            {
+                "id": "project_6",
+                "name": "Focused on data reliability and operational efficiency",
+                "source_resumes": [
+                    "7b0d7cf8-3a47-48aa-aa89-0562797dccec"
+                ],
+                "properties": {
+                    "description": []
+                }
+            },
+            {
+                "id": "project_7",
+                "name": "Aurora — AI-Driven Game",
+                "source_resumes": [
+                    "7b0d7cf8-3a47-48aa-aa89-0562797dccec"
+                ],
+                "properties": {
+                    "description": [
+                        "Designed and developed an AI-driven game featuring sound-based enemy detection and predictive movement algo-"
+                    ]
+                }
+            },
+            {
+                "id": "project_8",
+                "name": "rithms",
+                "source_resumes": [
+                    "7b0d7cf8-3a47-48aa-aa89-0562797dccec"
+                ],
+                "properties": {
+                    "description": [
+                        "Implemented intelligent NPC behaviour",
+                        "Built decision-making logic under uncertainty"
+                    ]
+                }
+            },
+            {
+                "id": "project_9",
+                "name": "Optimized gameplay mechanics",
+                "source_resumes": [
+                    "7b0d7cf8-3a47-48aa-aa89-0562797dccec"
+                ],
+                "properties": {
+                    "description": []
+                }
+            },
+            {
+                "id": "project_10",
+                "name": "Sephela – Enterprise platform for GenAI-based automated analysis and risk scoring of fraudulent Android APKs",
+                "source_resumes": [
+                    "eaa71340-3b97-4e2d-88de-f0bf1304468c"
+                ],
+                "properties": {
+                    "description": []
+                }
+            },
+            {
+                "id": "project_11",
+                "name": "— built for banking cybersecurity teams",
+                "source_resumes": [
+                    "eaa71340-3b97-4e2d-88de-f0bf1304468c"
+                ],
+                "properties": {
+                    "description": []
+                }
+            },
+            {
+                "id": "project_12",
+                "name": "BusMitra – Real-time bus tracking system combining a",
+                "source_resumes": [
+                    "eaa71340-3b97-4e2d-88de-f0bf1304468c"
+                ],
+                "properties": {
+                    "description": []
+                }
+            },
+            {
+                "id": "project_13",
+                "name": "share live bus locations and predict arrival times, improving public transport reliability and fleet monitoring for",
+                "source_resumes": [
+                    "eaa71340-3b97-4e2d-88de-f0bf1304468c"
+                ],
+                "properties": {
+                    "description": []
+                }
+            },
+            {
+                "id": "project_14",
+                "name": "authorities. Try it out",
+                "source_resumes": [
+                    "eaa71340-3b97-4e2d-88de-f0bf1304468c"
+                ],
+                "properties": {
+                    "description": []
+                }
+            },
+            {
+                "id": "project_15",
+                "name": "Gigkavach – Built an AI-powered mobile platform delivering parametric income insurance and earnings intelligence",
+                "source_resumes": [
+                    "eaa71340-3b97-4e2d-88de-f0bf1304468c"
+                ],
+                "properties": {
+                    "description": []
+                }
+            },
+            {
+                "id": "project_16",
+                "name": "for food-delivery gig workers, auto-triggering disruption payouts (rain, AQI, flooding) via real-time API monitoring",
+                "source_resumes": [
+                    "eaa71340-3b97-4e2d-88de-f0bf1304468c"
+                ],
+                "properties": {
+                    "description": []
+                }
+            },
+            {
+                "id": "project_17",
+                "name": "with zero manual claims filing. Try it out",
+                "source_resumes": [
+                    "eaa71340-3b97-4e2d-88de-f0bf1304468c"
+                ],
+                "properties": {
+                    "description": []
+                }
+            },
+            {
+                "id": "project_18",
+                "name": "Achievements and Campus Involvement",
+                "source_resumes": [
+                    "eaa71340-3b97-4e2d-88de-f0bf1304468c"
+                ],
+                "properties": {
+                    "description": []
+                }
+            },
+            {
+                "id": "project_19",
+                "name": "First Place, Innofusion ’26 – hackathon organized by the DSBS Department",
+                "source_resumes": [
+                    "eaa71340-3b97-4e2d-88de-f0bf1304468c"
+                ],
+                "properties": {
+                    "description": []
+                }
+            },
+            {
+                "id": "project_20",
+                "name": "First Place, PokeVerse Ideathon – organized by SRM ACM SIGKDD",
+                "source_resumes": [
+                    "eaa71340-3b97-4e2d-88de-f0bf1304468c"
+                ],
+                "properties": {
+                    "description": []
+                }
+            },
+            {
+                "id": "project_21",
+                "name": "IBM Android and iOS Application Developer Certification",
+                "source_resumes": [
+                    "eaa71340-3b97-4e2d-88de-f0bf1304468c"
+                ],
+                "properties": {
+                    "description": []
+                }
+            },
+            {
+                "id": "project_22",
+                "name": "Salesforce Certified Agentforce Specialist",
+                "source_resumes": [
+                    "eaa71340-3b97-4e2d-88de-f0bf1304468c"
+                ],
+                "properties": {
+                    "description": []
+                }
+            },
+            {
+                "id": "project_23",
+                "name": "Oracle Agentic AI Certified Foundations Associate",
+                "source_resumes": [
+                    "eaa71340-3b97-4e2d-88de-f0bf1304468c"
+                ],
+                "properties": {
+                    "description": []
+                }
+            },
+            {
+                "id": "project_24",
+                "name": "Technical Team Member – Google Developer Groups, Qwiklab Developer Club, Microsoft Student Ambassador",
+                "source_resumes": [
+                    "eaa71340-3b97-4e2d-88de-f0bf1304468c"
+                ],
+                "properties": {
+                    "description": []
+                }
+            },
+            {
+                "id": "project_25",
+                "name": "Coding Ninjas 10X",
+                "source_resumes": [
+                    "eaa71340-3b97-4e2d-88de-f0bf1304468c"
+                ],
+                "properties": {
+                    "description": []
+                }
+            }
+        ],
+        "degrees": [
+            {
+                "id": "degree_1",
+                "name": "Bachelor",
+                "source_resumes": [
+                    "00121-information-systems-resume-example",
+                    "exmil2",
+                    "exmil3"
+                ],
+                "properties": {}
+            },
+            {
+                "id": "degree_2",
+                "name": "B.Tech",
+                "source_resumes": [
+                    "314838a0-7f55-49e2-8bbd-773b30b6c47b",
+                    "eaa71340-3b97-4e2d-88de-f0bf1304468c"
+                ],
+                "properties": {}
+            },
+            {
+                "id": "degree_3",
+                "name": "Diploma",
+                "source_resumes": [
+                    "7b0d7cf8-3a47-48aa-aa89-0562797dccec"
+                ],
+                "properties": {}
+            },
+            {
+                "id": "degree_4",
+                "name": "B.S",
+                "source_resumes": [
+                    "exmil1"
+                ],
+                "properties": {}
+            },
+            {
+                "id": "degree_5",
+                "name": "ME",
+                "source_resumes": [
+                    "exsa22"
+                ],
+                "properties": {}
+            }
+        ],
+        "certifications": [
+            {
+                "id": "certification_1",
+                "name": "NPTEL – Java Programming & OOP | Participant – Codeathon Techformers 1.0",
+                "source_resumes": [
+                    "314838a0-7f55-49e2-8bbd-773b30b6c47b"
+                ],
+                "properties": {}
+            },
+            {
+                "id": "certification_2",
+                "name": "SRM Hackathon 10.0 – Ranked 4th out of 200+ teams | Solved 100+ Questions on LeetCode",
+                "source_resumes": [
+                    "314838a0-7f55-49e2-8bbd-773b30b6c47b"
+                ],
+                "properties": {}
+            },
+            {
+                "id": "certification_3",
+                "name": "HackerRank – 2 Star Badge",
+                "source_resumes": [
+                    "314838a0-7f55-49e2-8bbd-773b30b6c47b"
+                ],
+                "properties": {}
+            },
+            {
+                "id": "certification_4",
+                "name": "Object-Oriented Programming — IIT Roorkee",
+                "source_resumes": [
+                    "7b0d7cf8-3a47-48aa-aa89-0562797dccec"
+                ],
+                "properties": {}
+            },
+            {
+                "id": "certification_5",
+                "name": "Data Science Bootcamp (6 Weeks) — GeeksforGeeks",
+                "source_resumes": [
+                    "7b0d7cf8-3a47-48aa-aa89-0562797dccec"
+                ],
+                "properties": {}
+            },
+            {
+                "id": "certification_6",
+                "name": "Financial Analysis & Market Fundamentals (Level 2)",
+                "source_resumes": [
+                    "7b0d7cf8-3a47-48aa-aa89-0562797dccec"
+                ],
+                "properties": {}
+            },
+            {
+                "id": "certification_7",
+                "name": "Stock Analysis",
+                "source_resumes": [
+                    "7b0d7cf8-3a47-48aa-aa89-0562797dccec"
+                ],
+                "properties": {}
+            },
+            {
+                "id": "certification_8",
+                "name": "Washington Registered Plumbing Apprentice (ID Number: OCALLJR941MP)",
+                "source_resumes": [
+                    "exbc17"
+                ],
+                "properties": {}
+            },
+            {
+                "id": "certification_9",
+                "name": "Idaho Registered Plumbing Apprentice (ID Number: 5101)",
+                "source_resumes": [
+                    "exbc17"
+                ],
+                "properties": {}
+            },
+            {
+                "id": "certification_10",
+                "name": "CPR Certified",
+                "source_resumes": [
+                    "exbc17"
+                ],
+                "properties": {}
+            },
+            {
+                "id": "certification_11",
+                "name": "Lean Six Sigma Green Belt Certified; Advanced Critical Incident Stress Management; Instructor Certified in",
+                "source_resumes": [
+                    "exmil2"
+                ],
+                "properties": {}
+            },
+            {
+                "id": "certification_12",
+                "name": "Myers-Briggs Type Indicator (MBTI)",
+                "source_resumes": [
+                    "exmil2"
+                ],
+                "properties": {}
+            }
+        ],
+        "languages": [
+            {
+                "id": "language_1",
+                "name": "Hindi (Fluent) — English (Fluent) — Spanish (Elementary)",
+                "source_resumes": [
+                    "7b0d7cf8-3a47-48aa-aa89-0562797dccec"
+                ],
+                "properties": {}
+            },
+            {
+                "id": "language_2",
+                "name": "Java, Dart, Python, C/C++, SQL",
+                "source_resumes": [
+                    "eaa71340-3b97-4e2d-88de-f0bf1304468c"
+                ],
+                "properties": {}
+            },
+            {
+                "id": "language_3",
+                "name": "Cloud & DevOps",
+                "source_resumes": [
+                    "eaa71340-3b97-4e2d-88de-f0bf1304468c"
+                ],
+                "properties": {}
+            },
+            {
+                "id": "language_4",
+                "name": "AWS Lambda, RDS, S3, SSM, Amazon Bedrock (Titan V2), Git",
+                "source_resumes": [
+                    "eaa71340-3b97-4e2d-88de-f0bf1304468c"
+                ],
+                "properties": {}
+            },
+            {
+                "id": "language_5",
+                "name": "Frameworks/Tools",
+                "source_resumes": [
+                    "eaa71340-3b97-4e2d-88de-f0bf1304468c"
+                ],
+                "properties": {}
+            },
+            {
+                "id": "language_6",
+                "name": "Flutter, React, Node.js, Firebase, REST APIs",
+                "source_resumes": [
+                    "eaa71340-3b97-4e2d-88de-f0bf1304468c"
+                ],
+                "properties": {}
+            },
+            {
+                "id": "language_7",
+                "name": "IoT Technologies",
+                "source_resumes": [
+                    "eaa71340-3b97-4e2d-88de-f0bf1304468c"
+                ],
+                "properties": {}
+            },
+            {
+                "id": "language_8",
+                "name": "ESP32, Arduino, Sensors, MQTT, Embedded Systems",
+                "source_resumes": [
+                    "eaa71340-3b97-4e2d-88de-f0bf1304468c"
+                ],
+                "properties": {}
+            },
+            {
+                "id": "language_9",
+                "name": "Soft Skills",
+                "source_resumes": [
+                    "eaa71340-3b97-4e2d-88de-f0bf1304468c"
+                ],
+                "properties": {}
+            },
+            {
+                "id": "language_10",
+                "name": "Problem Solving, Team Collaboration, Communication, Time Management",
+                "source_resumes": [
+                    "eaa71340-3b97-4e2d-88de-f0bf1304468c"
+                ],
+                "properties": {}
+            }
+        ],
+        "organizations": [
+            {
+                "id": "organization_1",
+                "name": "",
+                "source_resumes": [
+                    "exbc17"
+                ],
+                "properties": {}
+            },
+            {
+                "id": "organization_2",
+                "name": "Member, Helmets to Hard Hats, 2008 - Present",
+                "source_resumes": [
+                    "exbc17"
+                ],
+                "properties": {}
+            },
+            {
+                "id": "organization_3",
+                "name": "Resume Contributed for Sample Purposes Only",
+                "source_resumes": [
+                    "exbc17"
+                ],
+                "properties": {}
+            },
+            {
+                "id": "organization_4",
+                "name": "Written by FrontRunnerOnline.com",
+                "source_resumes": [
+                    "exbc17"
+                ],
+                "properties": {}
+            },
+            {
+                "id": "organization_5",
+                "name": "Jacob J. Jacoby",
+                "source_resumes": [
+                    "exbc17"
+                ],
+                "properties": {}
+            },
+            {
+                "id": "organization_6",
+                "name": "Resume Page Two",
+                "source_resumes": [
+                    "exbc17"
+                ],
+                "properties": {}
+            }
+        ],
+        "locations": []
+    }
+}

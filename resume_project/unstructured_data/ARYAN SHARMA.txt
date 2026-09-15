@@ -1,0 +1,37 @@
+Employee Profile: ARYAN SHARMA
+
+The following information was extracted from the employee resume.
+
+SKILLS
+- Python
+- Java
+- JavaScript
+- C++
+- C
+- SQL
+- Next.js
+- React
+- Django
+- Flask
+- FastAPI
+- Tailwind CSS
+- SQLite
+- Git
+- GitHub
+- VS Code
+- Firebase
+- Vercel
+
+PROJECTS
+- name: AI Interview Preparation Platform | description: Designed and developed backend APIs using FastAPI to process user data and generate personalized interview questions., Built automated data ingestion and processing pipelines for resume parsing and dynamic question generation., Implemented real-time evaluation and scoring system using structured data storage and retrieval., Integrated NLP models to analyze user responses and improve feedback accuracy. | technologies: Python, React, FastAPI
+- name: TerraMind – Agri Intelligence Platform | description: Built an ELT pipeline to ingest and transform satellite NDVI datasets for crop health monitoring., Processed and analyzed agricultural datasets to generate irrigation and soil recommendations., Designed dashboards to visualize processed data and provide actionable insights. | technologies: Python, Django
+- name: Crypto Trading Bot (Simulated) | description: Built a real-time data ingestion pipeline fetching live cryptocurrency price data via external REST APIs., Engineered a continuous ETL pipeline for data transformation and decision-making (BUY/HOLD logic)., Designed modular, scalable code architecture for future integration with real trading systems. | technologies: Python
+
+CERTIFICATIONS
+- NPTEL – Java Programming & OOP | Participant – Codeathon Techformers 1.0
+- SRM Hackathon 10.0 – Ranked 4th out of 200+ teams | Solved 100+ Questions on LeetCode
+- HackerRank – 2 Star Badge
+
+COURSEWORK
+- Data Structures and Algorithms, Database Management Systems, Object-Oriented Programming, Big Data Technologies, Computer
+- Networks, Operating Systems

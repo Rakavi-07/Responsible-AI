@@ -1,0 +1,51 @@
+{
+    "personal_information": {
+        "name": "GEORGE REDMOND",
+        "email": "g.redmond@email.com",
+        "phone": "207-555-1212",
+        "location": null,
+        "linkedin": null,
+        "github": null,
+        "portfolio": null
+    },
+    "summary": null,
+    "education": [
+        {
+            "institution": null,
+            "location": null,
+            "degree": "ME",
+            "field_of_study": "of Science in Business Administration",
+            "start_date": null,
+            "end_date": null,
+            "graduation_year": null,
+            "cgpa": null
+        }
+    ],
+    "experience": [],
+    "skills": {
+        "programming_languages": [],
+        "frameworks": [],
+        "databases": [],
+        "tools": [],
+        "cloud": [],
+        "soft_skills": [
+            "Leadership",
+            "Team Leadership"
+        ]
+    },
+    "projects": [],
+    "certifications": [],
+    "achievements": [],
+    "languages": [],
+    "leadership": [],
+    "publications": [],
+    "military_experience": [],
+    "affiliations": [],
+    "training": [
+        "Professional Selling Skills ♦ Prospecting Tools and Techniques",
+        "Essentials of Communicating with Diplomacy and Professionalism",
+        "The Upside of Upselling ♦ How to Attract New Customers",
+        "Market for Success ♦ How to Compete Against the Big Box Stores"
+    ],
+    "coursework": []
+}
